@@ -16,6 +16,7 @@
   height: 900px;
   box-shadow: 0px 20px 15px 0 rgb(37, 37, 77), 0px 10px 15px 0 rgb(47, 47, 100);
   transition: transform 1s ease-in-out;
+  z-index: 98;
 }
 
 #projects-section3:hover .section3-night-img {
@@ -33,7 +34,7 @@
 .section-3-header {
   position: relative;
   top: -650px;
-  left: 1200px;
+  left: 1300px;
   text-align: center;
   color: #fff;
   font-size: 30px;
@@ -41,11 +42,11 @@
   font-weight: 100;
   letter-spacing: 20px;
   transition: transform 1.5s ease-in-out;
-  z-index: 95;
+  z-index: 98;
 }
 
 #projects-section3:hover .section-3-header {
-  transform: translate(-440px, 0px);
+  transform: translate(-340px, 0px);
 }
 
 .moon {
@@ -430,7 +431,7 @@
 
 @media only screen and (max-width: 1600px) and (min-width: 1500px) {
   #projects-section3:hover .section-3-header {
-    transform: translate(-440px, 0px);
+    transform: translate(-560px, 0px);
   }
 
   .moon {
@@ -445,7 +446,7 @@
 
 @media only screen and (max-width: 1500px) and (min-width: 1400px) {
   #projects-section3:hover .section-3-header {
-    transform: translate(-540px, 0px);
+    transform: translate(-640px, 0px);
   }
 
   .moon {
@@ -459,7 +460,7 @@
 
 @media only screen and (max-width: 1400px) and (min-width: 1300px) {
   #projects-section3:hover .section-3-header {
-    transform: translate(-600px, 0px);
+    transform: translate(-700px, 0px);
   }
 
   .moon {
@@ -473,7 +474,7 @@
 
 @media only screen and (max-width: 1300px) and (min-width: 1200px) {
   #projects-section3:hover .section-3-header {
-    transform: translate(-700px, 0px);
+    transform: translate(-800px, 0px);
   }
 
   .moon {
