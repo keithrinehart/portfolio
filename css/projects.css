@@ -1,0 +1,486 @@
+#projects-section3 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(47, 47, 88);
+}
+
+.section3-night-img {
+  position: relative;
+  background-image: url(/img/night2.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -950px;
+  height: 900px;
+  box-shadow: 0px 20px 15px 0 rgb(37, 37, 77), 0px 10px 15px 0 rgb(47, 47, 100);
+  transition: transform 1s ease-in-out;
+}
+
+#projects-section3:hover .section3-night-img {
+  transform: translate(0px, 900px);
+}
+
+#projects-section3:hover .section3-cover {
+  transform: translate(1950px, 0px);
+}
+
+.sec3-header-container {
+  width: 80%;
+}
+
+.section-3-header {
+  position: relative;
+  top: -650px;
+  left: 1200px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
+  letter-spacing: 20px;
+  transition: transform 1.5s ease-in-out;
+  z-index: 95;
+}
+
+#projects-section3:hover .section-3-header {
+  transform: translate(-440px, 0px);
+}
+
+.moon {
+  position: absolute;
+  top: -500px;
+  left: 1300px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 100px rgb(255, 255, 255));
+  transition: transform 2s ease-in-out;
+  z-index: 100;
+}
+
+#projects-section3:hover .moon {
+  transform: translate(0px, 250px);
+  transition-delay: 1s;
+}
+
+.section3-ul {
+  position: relative;
+  width: 20px;
+  top: -900px;
+  display: flex;
+  flex-direction: column;
+  margin: 22.3% 2%;
+}
+
+.color-sec3 {
+  position: relative;
+  color: #fff;
+  z-index: 100;
+}
+
+.section3-skyline-img {
+  position: relative;
+  top: -380px;
+  filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+  transition: transform 1s ease-in-out;
+  z-index: 98;
+}
+
+#projects-section3:hover .section3-skyline-img {
+  transform: translate(0px, -1210px);
+}
+
+/********************TRAFFIC-SECTION********************/
+
+.sec3-traffic-container {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.amb-1 {
+  position: relative;
+  top: 18px;
+  left: 50px;
+  float: right;
+  transition: transform 20s ease-in-out;
+  z-index: 97;
+}
+
+#projects-section3:hover .amb-1 {
+  transform: translate(-2100px, 0px);
+  transition-delay: 15s;
+}
+
+.amb-2 {
+  position: absolute;
+  top: 17px;
+  left: -50px;
+  transition: transform 20s ease-in-out;
+  z-index: 98;
+}
+
+#projects-section3:hover .amb-2 {
+  transform: translate(2100px, 0px);
+}
+
+.orange-car {
+  position: absolute;
+  top: 24px;
+  left: -50px;
+  transition: transform 10s ease-in-out;
+  z-index: 99;
+}
+
+#projects-section3:hover .orange-car {
+  transform: translate(1000px, 0px);
+  transition-delay: 3s;
+}
+
+.police-car {
+  position: relative;
+  top: 28px;
+  left: -50px;
+  transition: transform 8s ease-in-out;
+  z-index: 99;
+}
+
+#projects-section3:hover .police-car {
+  transform: translate(940px, 0px);
+  transition-delay: 6s;
+}
+
+.police-car-light-container {
+  position: absolute;
+  left: -45.2px;
+  top: 15px;
+  box-shadow: 0px 0px 20px 0px rgba(255, 5, 5, 0.884);
+  transition: transform 8s ease-in-out;
+  z-index: 99;
+}
+
+#projects-section3:hover .police-car-light-container {
+  transform: translate(940px, 0px);
+  transition-delay: 6s;
+}
+
+.police-car-light {
+  position: relative;
+  width: 2px;
+  height: 2px;
+  top: 13px;
+  left: 12px;
+  z-index: 100;
+  background-color: rgb(252, 11, 11);
+  box-shadow: 0px 0px 20px 0px rgba(255, 5, 5, 0.884);
+  animation: police-light 1s linear infinite;
+}
+
+@keyframes police-light {
+  0% {
+    background-color: rgba(35, 86, 226, 0.651);
+    box-shadow: 0 0 8px 5px rgba(30, 95, 235, 0.664),
+      0 0 12px 5px rgb(30, 95, 235), 0 0 16px 5px rgb(30, 95, 235),
+      0 0 20px 5px rgb(30, 95, 235), 0 0 24px 5px rgb(30, 95, 235);
+  }
+  100% {
+    background-color: rgba(248, 13, 13, 0.747);
+    box-shadow: 0 0 8px 3px rgba(248, 13, 13, 0.712),
+      0 0 12px 3px rgb(248, 13, 13), 0 0 16px 3px rgb(248, 13, 13),
+      0 0 20px 3px rgb(248, 13, 13), 0 0 24px 3px rgb(248, 13, 13);
+  }
+}
+
+.red-bus {
+  position: relative;
+  top: 7px;
+  left: 160px;
+  float: right;
+  transition: transform 45s ease-in-out;
+  z-index: 97;
+}
+
+#projects-section3:hover .red-bus {
+  transform: translate(-2140px, 0px);
+}
+
+.yellow-bus {
+  position: absolute;
+  top: 23px;
+  left: -60px;
+  transition: transform 40s ease-in-out;
+  z-index: 98;
+}
+
+#projects-section3:hover .yellow-bus {
+  transform: translate(2140px, 0px);
+}
+
+.blue-car {
+  position: relative;
+  top: 30px;
+  left: 220px;
+  float: right;
+  transition: transform 35s ease-in-out;
+  z-index: 97;
+}
+
+#projects-section3:hover .blue-car {
+  transform: translate(-2140px, 0px);
+  transition-delay: 8s;
+}
+
+#projects-section3:hover .blue-car {
+  transform: translate(-2140px, 0px);
+  transition-delay: 12s;
+}
+
+.black-car {
+  position: absolute;
+  top: 22px;
+  left: -60px;
+  transition: transform 40s ease-in-out;
+  z-index: 98;
+}
+
+#projects-section3:hover .black-car {
+  transform: translate(2140px, 0px);
+  transition-delay: 12s;
+}
+
+.white-car2 {
+  position: absolute;
+  top: 24px;
+  left: -60px;
+  transition: transform 35s ease-in-out;
+  z-index: 98;
+}
+
+#projects-section3:hover .white-car2 {
+  transform: translate(2140px, 0px);
+  transition-delay: 19s;
+}
+
+.taxi {
+  position: relative;
+  top: 30px;
+  left: 370px;
+  float: right;
+  transition: transform 30s ease-in-out;
+  z-index: 97;
+}
+
+#projects-section3:hover .taxi {
+  transform: translate(-2140px, 0px);
+  transition-delay: 17s;
+}
+
+.white-car {
+  position: relative;
+  top: 24px;
+  left: 370px;
+  float: right;
+  transition: transform 25s ease-in-out;
+  z-index: 97;
+}
+
+#projects-section3:hover .white-car {
+  transform: translate(-2140px, 0px);
+  transition-delay: 21s;
+}
+
+.car-s {
+  position: absolute;
+  top: 22px;
+  left: 1670px;
+  z-index: 95;
+}
+
+.car-s2 {
+  position: absolute;
+  top: 30px;
+  left: 470px;
+  z-index: 95;
+}
+
+.car-s3 {
+  position: absolute;
+  top: 15px;
+  left: 150px;
+  z-index: 95;
+}
+
+.rv-s {
+  position: absolute;
+  top: 0px;
+  left: 1050px;
+  z-index: 95;
+}
+
+.taxi-s1 {
+  position: absolute;
+  top: 13px;
+  left: 1150px;
+  z-index: 95;
+}
+
+.taxi-s2 {
+  position: absolute;
+  top: 13px;
+  left: 750px;
+  z-index: 95;
+}
+
+.taxi-s3 {
+  position: absolute;
+  top: 13px;
+  left: 530px;
+  z-index: 95;
+}
+
+/*****************SKYLINE-SIZING**************/
+
+@media only screen and (max-width: 1875px) and (min-width: 1800px) {
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -1285px);
+  }
+}
+@media only screen and (max-width: 1800px) and (min-width: 1750px) {
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -1255px);
+  }
+}
+@media only screen and (max-width: 1750px) and (min-width: 1700px) {
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -1215px);
+  }
+}
+@media only screen and (max-width: 1700px) and (min-width: 1650px) {
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -1175px);
+  }
+}
+@media only screen and (max-width: 1650px) and (min-width: 1600px) {
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -1135px);
+  }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1550px) {
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -1095px);
+  }
+}
+@media only screen and (max-width: 1550px) and (min-width: 1500px) {
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -1055px);
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 1450px) {
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -1010px);
+  }
+}
+@media only screen and (max-width: 1450px) and (min-width: 1400px) {
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -970px);
+  }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1350px) {
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -930px);
+  }
+}
+@media only screen and (max-width: 1350px) and (min-width: 1300px) {
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -890px);
+  }
+}
+@media only screen and (max-width: 1300px) and (min-width: 1250px) {
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -845px);
+  }
+}
+@media only screen and (max-width: 1250px) and (min-width: 1200px) {
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -805px);
+  }
+}
+
+@media only screen and (max-width: 1871px) and (min-width: 1600px) {
+  .section-3-header {
+    top: -650px;
+    left: 1200px;
+  }
+
+  #projects-section3:hover .section-3-header {
+    transform: translate(-440px, 0px);
+  }
+
+  .moon {
+    top: -500px;
+    left: 1000px;
+  }
+
+  #projects-section3:hover .moon {
+    transform: translate(100px, 280px);
+  }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1500px) {
+  #projects-section3:hover .section-3-header {
+    transform: translate(-440px, 0px);
+  }
+
+  .moon {
+    top: -500px;
+    left: 1000px;
+  }
+
+  #projects-section3:hover .moon {
+    transform: translate(-50px, 280px);
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1400px) {
+  #projects-section3:hover .section-3-header {
+    transform: translate(-540px, 0px);
+  }
+
+  .moon {
+    left: 700px;
+  }
+
+  #projects-section3:hover .moon {
+    transform: translate(100px, 280px);
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1300px) {
+  #projects-section3:hover .section-3-header {
+    transform: translate(-600px, 0px);
+  }
+
+  .moon {
+    left: 650px;
+  }
+
+  #projects-section3:hover .moon {
+    transform: translate(100px, 280px);
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1200px) {
+  #projects-section3:hover .section-3-header {
+    transform: translate(-700px, 0px);
+  }
+
+  .moon {
+    left: 650px;
+  }
+
+  #projects-section3:hover .moon {
+    transform: translate(-50px, 280px);
+  }
+}

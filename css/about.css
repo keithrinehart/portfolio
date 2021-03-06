@@ -1,0 +1,18 @@
+#about-section4 {
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+  background-color: rgb(170, 169, 169);
+}
+
+.section-4-header {
+  text-align: center;
+  color: rgb(128, 229, 247);
+}
+
+.section4-ul {
+  display: flex;
+  flex-direction: column;
+  margin: 22.3% 1%;
+}
