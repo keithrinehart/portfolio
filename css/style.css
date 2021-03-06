@@ -555,25 +555,30 @@ a {
   }
 
   .intro-name-square {
-    left: 276px;
-    width: 17px;
+    top: 62px;
+    left: 361px;
+    width: 30px;
+    height: 30px;
   }
 
   .intro-name-square2 {
-    left: 215px;
+    top: 32px;
+    left: 278px;
+    width: 30px;
+    height: 30px;
   }
 
   .intro-container {
-    top: -200px;
+    top: -250px;
     left: -40px;
   }
 
   #header:hover .intro-container {
-    transform: translate(0px, 600px);
+    transform: translate(0px, 500px);
   }
 
   .into-text {
-    font-size: 25px;
+    font-size: 35px;
   }
 
   /*********************************HEADER____END***********************************/
@@ -590,8 +595,8 @@ a {
 
   .airballoon1 {
     position: relative;
-    top: -1000px;
-    left: 0px;
+    top: -950px;
+    left: -30px;
     transition: transform 4s ease-in-out;
   }
 
@@ -601,7 +606,7 @@ a {
 
   .airballoon2 {
     position: relative;
-    top: -1310px;
+    top: -610px;
     left: 1660px;
     transition: transform 3s ease-in-out;
     z-index: 98;
