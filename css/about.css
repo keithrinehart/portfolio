@@ -9,9 +9,12 @@
   text-align: center;
   color: rgb(128, 229, 247);
 }
-
 .section4-ul {
+  position: relative;
+  width: 20px;
+  top: 20px;
   display: flex;
   flex-direction: column;
-  margin: 22.3% 1%;
+  margin: 22.3% 2%;
+  z-index: 101;
 }

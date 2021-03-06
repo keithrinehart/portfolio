@@ -80,7 +80,7 @@
   top: -380px;
   filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
   transition: transform 1s ease-in-out;
-  z-index: 100;
+  z-index: 98;
 }
 
 #projects-section3:hover .section3-skyline-img {
@@ -364,16 +364,10 @@
 
   .section3-night-img {
     position: relative;
-    background-image: url(/img/night2.png);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
     top: -950px;
     height: 900px;
-    box-shadow: 0px 20px 15px 0 rgb(37, 37, 77),
-      0px 10px 15px 0 rgb(47, 47, 100);
     transition: transform 1s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section3-night-img {
@@ -399,7 +393,7 @@
     font-weight: 100;
     letter-spacing: 20px;
     transition: transform 1.5s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section-3-header {
@@ -465,16 +459,10 @@
 
   .section3-night-img {
     position: relative;
-    background-image: url(/img/night2.png);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
     top: -950px;
     height: 900px;
-    box-shadow: 0px 20px 15px 0 rgb(37, 37, 77),
-      0px 10px 15px 0 rgb(47, 47, 100);
     transition: transform 1s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section3-night-img {
@@ -500,7 +488,7 @@
     font-weight: 100;
     letter-spacing: 20px;
     transition: transform 1.5s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section-3-header {
@@ -548,7 +536,7 @@
   .sec3-traffic-container {
     position: absolute;
     width: 100%;
-    bottom: 5px;
+    bottom: 0px;
     left: 0;
     z-index: 100;
   }
@@ -579,16 +567,10 @@
 
   .section3-night-img {
     position: relative;
-    background-image: url(/img/night2.png);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
     top: -950px;
     height: 900px;
-    box-shadow: 0px 20px 15px 0 rgb(37, 37, 77),
-      0px 10px 15px 0 rgb(47, 47, 100);
     transition: transform 1s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section3-night-img {
@@ -614,7 +596,7 @@
     font-weight: 100;
     letter-spacing: 20px;
     transition: transform 1.5s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section-3-header {
@@ -662,7 +644,7 @@
   .sec3-traffic-container {
     position: absolute;
     width: 100%;
-    bottom: 5px;
+    bottom: 0px;
     left: 0;
     z-index: 100;
   }
@@ -693,16 +675,10 @@
 
   .section3-night-img {
     position: relative;
-    background-image: url(/img/night2.png);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
     top: -950px;
     height: 900px;
-    box-shadow: 0px 20px 15px 0 rgb(37, 37, 77),
-      0px 10px 15px 0 rgb(47, 47, 100);
     transition: transform 1s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section3-night-img {
@@ -728,7 +704,7 @@
     font-weight: 100;
     letter-spacing: 20px;
     transition: transform 1.5s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section-3-header {
@@ -776,7 +752,7 @@
   .sec3-traffic-container {
     position: absolute;
     width: 100%;
-    bottom: 5px;
+    bottom: 0px;
     left: 0;
     z-index: 100;
   }
@@ -807,16 +783,10 @@
 
   .section3-night-img {
     position: relative;
-    background-image: url(/img/night2.png);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
     top: -950px;
     height: 900px;
-    box-shadow: 0px 20px 15px 0 rgb(37, 37, 77),
-      0px 10px 15px 0 rgb(47, 47, 100);
     transition: transform 1s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section3-night-img {
@@ -842,7 +812,7 @@
     font-weight: 100;
     letter-spacing: 20px;
     transition: transform 1.5s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section-3-header {
@@ -890,7 +860,7 @@
   .sec3-traffic-container {
     position: absolute;
     width: 100%;
-    bottom: 2px;
+    bottom: 0px;
     left: 0;
     z-index: 100;
   }
@@ -921,16 +891,10 @@
 
   .section3-night-img {
     position: relative;
-    background-image: url(/img/night2.png);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
     top: -950px;
     height: 900px;
-    box-shadow: 0px 20px 15px 0 rgb(37, 37, 77),
-      0px 10px 15px 0 rgb(47, 47, 100);
     transition: transform 1s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section3-night-img {
@@ -956,7 +920,7 @@
     font-weight: 100;
     letter-spacing: 20px;
     transition: transform 1.5s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section-3-header {
@@ -1004,7 +968,7 @@
   .sec3-traffic-container {
     position: absolute;
     width: 100%;
-    bottom: 2px;
+    bottom: 0px;
     left: 0;
     z-index: 100;
   }
@@ -1035,16 +999,10 @@
 
   .section3-night-img {
     position: relative;
-    background-image: url(/img/night2.png);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: cover;
     top: -950px;
     height: 900px;
-    box-shadow: 0px 20px 15px 0 rgb(37, 37, 77),
-      0px 10px 15px 0 rgb(47, 47, 100);
     transition: transform 1s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section3-night-img {
@@ -1070,7 +1028,7 @@
     font-weight: 100;
     letter-spacing: 20px;
     transition: transform 1.5s ease-in-out;
-    z-index: 98;
+    z-index: 100;
   }
 
   #projects-section3:hover .section-3-header {
@@ -1118,7 +1076,7 @@
   .sec3-traffic-container {
     position: absolute;
     width: 100%;
-    bottom: 2px;
+    bottom: 0px;
     left: 0;
     z-index: 100;
   }

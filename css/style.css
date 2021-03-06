@@ -418,7 +418,6 @@ html {
   justify-content: center;
   text-align: center;
   transition: transform 2s ease-in-out 1s;
-  z-index: 100;
 }
 
 #header:hover .intro-container {
