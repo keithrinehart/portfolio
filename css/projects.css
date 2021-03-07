@@ -85,6 +85,7 @@
 
 #projects-section3:hover .section3-skyline-img {
   transform: translate(0px, -1210px);
+  -moz-transform: translate(0px, -1190px);
 }
 
 /********************TRAFFIC-SECTION********************/
@@ -362,7 +363,7 @@
 /********************MEDIA-SIZING******************/
 
 /**************3440 × 1440******************/
-@media only screen and (width: 3440px) and (height: 1440px) {
+@media only screen and (max-width: 3445px) and (min-width: 3385px) and (max-height: 1442px) and (min-width: 1438px) {
   #projects-section3 {
     position: relative;
     width: 100%;
@@ -420,7 +421,7 @@
   }
   
   #projects-section3:hover .section3-skyline-img {
-    transform: translate(0px, -2020px);
+    transform: translate(0px, -1980px);
   }
 }
 /**************2960 × 1440******************/
