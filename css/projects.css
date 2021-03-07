@@ -361,6 +361,193 @@
 /********************MEDIA-SIZING******************/
 /********************MEDIA-SIZING******************/
 
+/**************3440 × 1440******************/
+@media only screen and (width: 3440px) and (height: 1440px) {
+  #projects-section3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(21, 35, 68);
+  }
+  
+  .section3-night-img {
+    position: relative;
+    top: -950px;
+    height: 900px;
+    transition: transform 1s ease-in-out;
+    z-index: 100;
+  }
+  
+  #projects-section3:hover .section3-night-img {
+    transform: translate(0px, 950px);
+  }
+  
+  #projects-section3:hover .section3-cover {
+    transform: translate(1950px, 0px);
+  }
+  
+  .sec3-header-container {
+    width: 80%;
+  }
+  
+  .section-3-header {
+    position: relative;
+    top: -650px;
+    left: 2500px;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    letter-spacing: 20px;
+    transition: transform 1.5s ease-in-out;
+    z-index: 100;
+  }
+  
+  #projects-section3:hover .section-3-header {
+    transform: translate(-700px, -100px);
+  }
+  
+  .moon {
+    top: -500px;
+    left: 3000px;
+  }
+  
+  #projects-section3:hover .moon {
+    transform: translate(-150px, 180px);
+    transition-delay: 0.7s;
+  }
+  
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -2020px);
+  }
+}
+/**************2960 × 1440******************/
+@media only screen and (width: 2960px) and (height: 1440px) {
+  #projects-section3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(21, 35, 68);
+  }
+  
+  .section3-night-img {
+    position: relative;
+    top: -950px;
+    height: 900px;
+    transition: transform 1s ease-in-out;
+    z-index: 100;
+  }
+  
+  #projects-section3:hover .section3-night-img {
+    transform: translate(0px, 950px);
+  }
+  
+  #projects-section3:hover .section3-cover {
+    transform: translate(1950px, 0px);
+  }
+  
+  .sec3-header-container {
+    width: 80%;
+  }
+  
+  .section-3-header {
+    position: relative;
+    top: -650px;
+    left: 2100px;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    letter-spacing: 20px;
+    transition: transform 1.5s ease-in-out;
+    z-index: 100;
+  }
+  
+  #projects-section3:hover .section-3-header {
+    transform: translate(-640px, -100px);
+  }
+  
+  .moon {
+    top: -500px;
+    left: 2600px;
+  }
+  
+  #projects-section3:hover .moon {
+    transform: translate(-150px, 180px);
+    transition-delay: 0.7s;
+  }
+  
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -1620px);
+  }
+}
+/**************2560 × 1600******************/
+@media only screen and (width: 2560px) and (height: 1600px) {
+  #projects-section3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(21, 35, 68);
+  }
+  
+  .section3-night-img {
+    position: relative;
+    top: -950px;
+    height: 900px;
+    transition: transform 1s ease-in-out;
+    z-index: 100;
+  }
+  
+  #projects-section3:hover .section3-night-img {
+    transform: translate(0px, 950px);
+  }
+  
+  #projects-section3:hover .section3-cover {
+    transform: translate(1950px, 0px);
+  }
+  
+  .sec3-header-container {
+    width: 80%;
+  }
+  
+  .section-3-header {
+    position: relative;
+    top: -650px;
+    left: 1900px;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    letter-spacing: 20px;
+    transition: transform 1.5s ease-in-out;
+    z-index: 100;
+  }
+  
+  #projects-section3:hover .section-3-header {
+    transform: translate(-640px, -100px);
+  }
+  
+  .moon {
+    top: -500px;
+    left: 2100px;
+  }
+  
+  #projects-section3:hover .moon {
+    transform: translate(-150px, 180px);
+    transition-delay: 0.7s;
+  }
+  
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -1110px);
+  }
+}
+
 /**************2560 × 1440******************/
 @media only screen and (width: 2560px) and (height: 1440px) {
   #projects-section3 {
