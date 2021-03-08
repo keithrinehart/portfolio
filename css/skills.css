@@ -943,7 +943,7 @@
   .top-cloud {
     position: relative;
     transform: rotate(180deg);
-    top: -1200px;
+    top: -1100px;
     z-index: 99;
   }
 
@@ -1044,7 +1044,7 @@
   .top-cloud {
     position: relative;
     transform: rotate(180deg);
-    top: -1200px;
+    top: -1050px;
     z-index: 99;
   }
 
@@ -1145,7 +1145,7 @@
   .top-cloud {
     position: relative;
     transform: rotate(180deg);
-    top: -1100px;
+    top: -1000px;
     z-index: 99;
   }
 
@@ -1347,7 +1347,7 @@
   .top-cloud {
     position: relative;
     transform: rotate(180deg);
-    top: -1050px;
+    top: -1000px;
     z-index: 99;
   }
 
@@ -1448,7 +1448,7 @@
   .top-cloud {
     position: relative;
     transform: rotate(180deg);
-    top: -1000px;
+    top: -900px;
     z-index: 99;
   }
 
@@ -1548,7 +1548,7 @@
   .top-cloud {
     position: relative;
     transform: rotate(180deg);
-    top: -1000px;
+    top: -950px;
     z-index: 99;
   }
 

@@ -11,7 +11,7 @@ html {
 
 #header {
   width: 100%;
-  height: 180vh;
+  height: 175vh;
   overflow: hidden;
   background: rgb(252, 252, 251);
 }
@@ -550,7 +550,7 @@ a {
 /**************3440 × 1440******************/
 @media only screen and (max-width: 3445px) and (min-width: 3385px) and (max-height: 1442px) and (min-width: 1438px) {
   #header {
-    height: 125vh;
+    height: 115vh;
   }
 
   .cloud1-container {
@@ -703,7 +703,7 @@ a {
 
   .annas-cloud {
     position: absolute;
-    top: 1200px;
+    top: 1100px;
     left: 0;
     z-index: 100;
   }
@@ -1323,7 +1323,7 @@ a {
 /**************1920 × 1440******************/
 @media only screen and (max-width: 1922px) and (min-width: 1918px) and (max-height: 1442px) and (min-height: 1438px) {
   #header {
-    height: 135vh;
+    height: 130vh;
   }
 
   .intro-name-square {
@@ -1399,7 +1399,7 @@ a {
 /***********************1920px X 1200px************************/
 @media only screen and (max-width: 1922px) and (min-width: 1918px) and (max-height: 1202px) and (min-height: 1198px) {
   #header {
-    height: 160vh;
+    height: 152vh;
   }
 
   .intro-name-square {
@@ -1466,7 +1466,7 @@ a {
 
   .annas-cloud {
     position: absolute;
-    top: 1606px;
+    top: 1506px;
     left: 0;
     z-index: 100;
   }
@@ -1475,7 +1475,7 @@ a {
 /***********************1920px X 1080px************************/
 @media only screen and (max-width: 1922px) and (min-width: 1918px) and (max-height: 1082px) and (min-height: 1078px) {
   #header {
-    height: 175vh;
+    height: 170vh;
   }
 
   .intro-name-square {
@@ -1542,7 +1542,7 @@ a {
 
   .annas-cloud {
     position: absolute;
-    top: 1606px;
+    top: 1506px;
     left: 0;
     z-index: 100;
   }
@@ -1957,7 +1957,7 @@ a {
 /***********************1440px X 1080px************************/
 @media only screen and (max-width: 1442px) and (min-width: 1438px) and (max-height: 1082px) and (min-height: 1078px) {
   #header {
-    height: 144vh;
+    height: 140vh;
   }
 
   .welcome {
@@ -2033,7 +2033,7 @@ a {
 
   .annas-cloud {
     position: absolute;
-    top: 1310px;
+    top: 1280px;
     left: 0;
     z-index: 100;
   }
@@ -2127,7 +2127,7 @@ a {
 /***********************1400px X 1050px************************/
 @media only screen and (max-width: 1402px) and (min-width: 1398px) and (max-height: 1052px) and (min-height: 1048px) {
   #header {
-    height: 145vh;
+    height: 140vh;
   }
 
   .welcome {
@@ -2203,7 +2203,7 @@ a {
 
   .annas-cloud {
     position: absolute;
-    top: 1290px;
+    top: 1220px;
     left: 0;
     z-index: 100;
   }
@@ -2212,7 +2212,7 @@ a {
 /***********************1366px X 768px************************/
 @media only screen and (max-width: 1368px) and (min-width: 1364px) and (max-height: 770px) and (min-height: 766px) {
   #header {
-    height: 174vh;
+    height: 175vh;
   }
 
   .welcome {
@@ -2297,7 +2297,7 @@ a {
 /***********************1280px X 960px************************/
 @media only screen and (max-width: 1282px) and (min-width: 1278px) and (max-height: 962px) and (min-height: 958px) {
   #header {
-    height: 140vh;
+    height: 135vh;
   }
 
   .welcome {
@@ -2466,7 +2466,7 @@ a {
 /***********************1280px X 720px************************/
 @media only screen and (max-width: 1280px) and (min-width: 1278px) and (max-height: 722px) and (min-height: 718px) {
   #header {
-    height: 174vh;
+    height: 170vh;
   }
 
   .welcome {
@@ -2542,7 +2542,7 @@ a {
 
   .annas-cloud {
     position: absolute;
-    top: 1070px;
+    top: 1020px;
     left: 0;
     z-index: 100;
   }
@@ -2551,7 +2551,7 @@ a {
 /***********************1152px X 648px************************/
 @media only screen and (max-width: 1154px) and (min-width: 1150px) and (max-height: 650px) and (min-height: 646px) {
   #header {
-    height: 174vh;
+    height: 165vh;
   }
 
   .welcome {
@@ -2629,7 +2629,7 @@ a {
 
   .annas-cloud {
     position: absolute;
-    top: 950px;
+    top: 850px;
     left: 0;
     z-index: 100;
   }
@@ -2638,7 +2638,7 @@ a {
 /**************1024 × 768*******************/
 @media only screen and (max-width: 1026px) and (min-width: 1022px) and (max-height: 770px) and (min-height: 766px) {
   #header {
-    height: 163vh;
+    height: 155vh;
   }
 
   .header-ul {
@@ -2724,7 +2724,7 @@ a {
 
   .annas-cloud {
     position: absolute;
-    top: 1085px;
+    top: 1020px;
     left: 0;
     z-index: 100;
   }
@@ -2733,7 +2733,7 @@ a {
 /**************1024 × 576*******************/
 @media only screen and (max-width: 1026px) and (min-width: 1022px) and (max-height: 578px) and (min-height: 574px) {
   #header {
-    height: 163vh;
+    height: 150vh;
   }
 
   .header-ul {
@@ -2819,7 +2819,7 @@ a {
 
   .annas-cloud {
     position: absolute;
-    top: 770px;
+    top: 690px;
     left: 0;
     z-index: 100;
   }
