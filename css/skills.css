@@ -212,7 +212,7 @@
   }
 }
 /**************2960 × 1440******************/
-@media only screen and (width: 2960px) and (height: 1440px) {
+@media only screen and (max-width: 2962px) and (min-width: 2958px) and (max-height: 1442px) and (min-height: 1438px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -312,7 +312,7 @@
   }
 }
 /**************2560 × 1600******************/
-@media only screen and (width: 2560px) and (height: 1600px) {
+@media only screen and (max-width: 2562px) and (min-width: 2558px) and (max-height: 1602px) and (min-height: 1598px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -413,7 +413,7 @@
 }
 
 /**************2560 × 1440******************/
-@media only screen and (width: 2560px) and (height: 1440px) {
+@media only screen and (max-width: 2562px) and (min-width: 2558px) and (max-height: 1442px) and (min-height: 1438px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -514,7 +514,7 @@
 }
 
 /**************2048 × 1536******************/
-@media only screen and (width: 2048px) and (height: 1536px) {
+@media only screen and (max-width: 2050px) and (min-width: 2046px) and (max-height: 1538px) and (min-height: 1534px) {
   .skills-header {
     position: relative;
     text-align: center;
@@ -598,7 +598,7 @@
   }
 }
 /**************1920 × 1440******************/
-@media only screen and (width: 1920px) and (height: 1440px) {
+@media only screen and (max-width: 1922px) and (min-width: 1918px) and (max-height: 1442px) and (min-height: 1438px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -699,7 +699,7 @@
 }
 
 /***********************1920px X 1200px************************/
-@media only screen and (width: 1920px) and (height: 1200px) {
+@media only screen and (max-width: 1922px) and (min-width: 1918px) and (max-height: 1202px) and (min-height: 1198px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -799,7 +799,7 @@
   }
 }
 /***********************1920px X 1080px************************/
-@media only screen and (width: 1920px) and (height: 1080px) {
+@media only screen and (max-width: 1922px) and (min-width: 1918px) and (max-height: 1082px) and (min-height: 1078px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -901,7 +901,7 @@
 }
 
 /**************1856 × 1392*******************/
-@media only screen and (width: 1856px) and (height: 1392px) {
+@media only screen and (max-width: 1858px) and (min-width: 1854px) and (max-height: 1394px) and (min-height: 1388px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -1001,7 +1001,7 @@
   }
 }
 /***********************1680px X 1050px************************/
-@media only screen and (width: 1680px) and (height: 1050px) {
+@media only screen and (max-width: 1682px) and (min-width: 1678px) and (max-height: 1052px) and (min-height: 1048px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -1103,7 +1103,7 @@
 }
 
 /***********************1600px X 1200px************************/
-@media only screen and (width: 1600px) and (height: 1200px) {
+@media only screen and (max-width: 1602px) and (min-width: 1598px) and (max-height: 1202px) and (min-height: 1198px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -1203,7 +1203,7 @@
   }
 }
 /***********************1600px X 900px************************/
-@media only screen and (width: 1600px) and (height: 900px) {
+@media only screen and (max-width: 1602px) and (min-width: 1598px) and (max-height: 902px) and (min-height: 898px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -1246,7 +1246,7 @@
   .top-cloud {
     position: relative;
     transform: rotate(180deg);
-    top: -1200px;
+    top: -1050px;
     z-index: 99;
   }
 
@@ -1304,7 +1304,7 @@
   }
 }
 /***********************1536px X 864px************************/
-@media only screen and (width: 1536px) and (height: 864px) {
+@media only screen and (max-width: 1538px) and (min-width: 1534px) and (max-height: 866px) and (min-height: 862px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -1406,7 +1406,7 @@
 }
 
 /***********************1440px X 1080px************************/
-@media only screen and (width: 1440px) and (height: 1080px) {
+@media only screen and (max-width: 1442px) and (min-width: 1438px) and (max-height: 1082px) and (min-height: 1078px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -1506,7 +1506,7 @@
   }
 }
 /***********************1440px X 900px************************/
-@media only screen and (width: 1440px) and (height: 900px) {
+@media only screen and (max-width: 1442px) and (min-width: 1438px) and (max-height: 902px) and (min-height: 898px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -1607,7 +1607,7 @@
 }
 
 /***********************1400px X 1050px************************/
-@media only screen and (width: 1400px) and (height: 1050px) {
+@media only screen and (max-width: 1402px) and (min-width: 1398px) and (max-height: 1052px) and (min-height: 1048px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -1649,7 +1649,7 @@
   .top-cloud {
     position: relative;
     transform: rotate(180deg);
-    top: -980px;
+    top: -880px;
     z-index: 99;
   }
 
@@ -1707,7 +1707,7 @@
   }
 }
 /***********************1366px X 768px************************/
-@media only screen and (width: 1366px) and (height: 768px) {
+@media only screen and (max-width: 1368px) and (min-width: 1364px) and (max-height: 770px) and (min-height: 766px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -1808,7 +1808,7 @@
 }
 
 /***********************1280px X 960px************************/
-@media only screen and (width: 1280px) and (height: 960px) {
+@media only screen and (max-width: 1282px) and (min-width: 1278px) and (max-height: 962px) and (min-height: 958px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -1850,7 +1850,7 @@
   .top-cloud {
     position: relative;
     transform: rotate(180deg);
-    top: -900px;
+    top: -850px;
     z-index: 99;
   }
 
@@ -1908,7 +1908,7 @@
   }
 }
 /***********************1280px X 800px************************/
-@media only screen and (width: 1280px) and (height: 800px) {
+@media only screen and (max-width: 1282px) and (min-width: 1278px) and (max-height: 802px) and (min-height: 798px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -2008,7 +2008,7 @@
   }
 }
 /***********************1280px X 720px************************/
-@media only screen and (width: 1280px) and (height: 720px) {
+@media only screen and (max-width: 1282px) and (min-width: 1278px) and (max-height: 722px) and (min-height: 718px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -2050,7 +2050,7 @@
   .top-cloud {
     position: relative;
     transform: rotate(180deg);
-    top: -870px;
+    top: -820px;
     z-index: 99;
   }
 
@@ -2109,7 +2109,7 @@
 }
 
 /***********************1152px X 648px************************/
-@media only screen and (width: 1152px) and (height: 648px) {
+@media only screen and (max-width: 1154px) and (min-width: 1150px) and (max-height: 650px) and (min-height: 646px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -2210,7 +2210,7 @@
 }
 
 /**************1024 × 768*******************/
-@media only screen and (width: 1024px) and (height: 768px) {
+@media only screen and (max-width: 1026px) and (min-width: 1022px) and (max-height: 770px) and (min-height: 767px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -2252,7 +2252,7 @@
   .top-cloud {
     position: relative;
     transform: rotate(180deg);
-    top: -750px;
+    top: -650px;
     z-index: 99;
   }
 
@@ -2311,7 +2311,7 @@
 }
 
 /**************1024 × 576*******************/
-@media only screen and (width: 1024px) and (height: 576px) {
+@media only screen and (max-width: 1026px) and (min-width: 1022px) and (max-height: 578px) and (min-height: 574px) {
   #skills-section2 {
     position: relative;
     width: 100%;
