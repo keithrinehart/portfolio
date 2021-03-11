@@ -59,7 +59,7 @@
   padding: 20px 20px;
   border-radius: 10px;
   overflow: hidden;
-  transition: transform 1s ease-in-out;
+  transition: transform 2.5s ease-in-out;
   z-index: 101;
 }
 
@@ -78,7 +78,7 @@
 
 #about-section4:hover .fa-node-js {
   transform: translate(0px, 55px);
-  transition-delay: 1s;
+  transition-delay: 3s;
 }
 
 .fa-css3-alt {
@@ -91,7 +91,7 @@
 }
 #about-section4:hover .fa-css3-alt {
   transform: translate(-30px, 140px);
-  transition-delay: 1s;
+  transition-delay: 3s;
 }
 
 .fa-html5 {
@@ -104,7 +104,7 @@
 }
 #about-section4:hover .fa-html5 {
   transform: translate(40px, 0px);
-  transition-delay: 1s;
+  transition-delay: 3s;
 }
 
 .fa-laptop-code {
