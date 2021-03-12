@@ -52,7 +52,7 @@ html {
   background: rgb(170, 169, 169);
   animation: cloud1line 3s linear infinite;
 }
-
+/*
 @keyframes cloud1line {
   0% {
     transform: rotate(0deg);
@@ -110,14 +110,16 @@ html {
     top: -290px;
   }
 }
+*/
 
 .cloud1 {
   position: absolute;
   z-index: 100;
+  top: 0px;
   filter: drop-shadow(30px 25px 15px rgba(0, 0, 0, 0.31));
   animation: cloud1 3s linear infinite;
 }
-
+/*
 @keyframes cloud1 {
   0% {
     transform: rotate(0deg);
@@ -175,6 +177,7 @@ html {
     top: 0px;
   }
 }
+*/
 
 .welcome {
   position: absolute;
@@ -216,6 +219,7 @@ html {
   animation: cloud2line 3s linear infinite;
 }
 
+/*
 @keyframes cloud2line {
   0% {
     transform: rotate(0deg);
@@ -273,6 +277,7 @@ html {
     top: -400px;
   }
 }
+*/
 
 .cloud2 {
   position: absolute;
@@ -280,7 +285,7 @@ html {
   filter: drop-shadow(30px 25px 15px rgba(0, 0, 0, 0.31));
   animation: cloud2 3s linear infinite;
 }
-
+/*
 @keyframes cloud2 {
   0% {
     transform: rotate(0deg);
@@ -338,7 +343,7 @@ html {
     top: 0px;
   }
 }
-
+*/
 .header-line {
   position: absolute;
   top: -1020px;

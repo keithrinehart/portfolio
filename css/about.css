@@ -780,6 +780,19 @@
   letter-spacing: 2px;
   word-spacing: 2px;
 }
+
+.about-contact {
+  position: relative;
+  text-align: center;
+  top: -1980px;
+  color: rgb(57, 221, 233);
+  transition: transform 500ms ease-in-out;
+}
+
+#about-section4:hover .about-contact {
+  transform: translate(0px, 50px);
+}
+
 /******************MEDIA-SIZING***************/
 /******************MEDIA-SIZING***************/
 /******************MEDIA-SIZING***************/

@@ -23,7 +23,7 @@
 .fa-linkedin {
   color: ivory;
   padding: 20px;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .fa-linkedin:hover {
@@ -36,7 +36,7 @@
 .fa-github-square {
   color: ivory;
   padding: 20px;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .fa-github-square:hover {
@@ -51,7 +51,7 @@
   color: ivory;
   font-size: 13px;
   font-family: "Playfair Display", serif;
-  top: 35px;
+  top: 30px;
   letter-spacing: 4px;
   flex: 1;
 }
