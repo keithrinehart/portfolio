@@ -8,18 +8,14 @@
 
 .section3-night-img {
   position: relative;
-  top: 950px;
-  height: 900px;
-  transition: transform 900ms ease-in-out;
+  height: 100vh;
+  top: 150px;
+  transition: transform 800ms ease-in-out;
   z-index: 100;
 }
 
 #projects-section3:hover .section3-night-img {
-  transform: translate(0px, -950px);
-}
-
-#projects-section3:hover .section3-cover {
-  transform: translate(1950px, 0px);
+  transform: translate(0px, -150px);
 }
 
 .sec3-header-container {
@@ -79,7 +75,7 @@
   position: relative;
   top: -380px;
   filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
-  transition: transform 1s ease-in-out;
+  transition: transform 800ms ease-in-out;
   z-index: 100;
 }
 
