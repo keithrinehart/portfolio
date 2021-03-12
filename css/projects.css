@@ -9,13 +9,13 @@
 .section3-night-img {
   position: relative;
   height: 100vh;
-  top: 150px;
+  top: 1100px;
   transition: transform 800ms ease-in-out;
   z-index: 100;
 }
 
 #projects-section3:hover .section3-night-img {
-  transform: translate(0px, -150px);
+  transform: translate(0px, -1100px);
 }
 
 .sec3-header-container {

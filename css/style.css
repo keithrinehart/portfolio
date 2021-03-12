@@ -563,6 +563,10 @@ a {
     top: -65px;
   }
 
+  .cloud1 {
+    top: -40px;
+  }
+
   #header:hover .cloud1-container {
     transform: translate(0px, -500px);
   }
