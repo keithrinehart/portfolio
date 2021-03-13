@@ -399,6 +399,15 @@
   z-index: 95;
 }
 
+.projects-cont {
+  position: relative;
+  top: -2500px;
+  left: 0px;
+  color: ivory;
+  font-size: 40px;
+  z-index: 105;
+}
+
 /********************MEDIA-SIZING******************/
 /********************MEDIA-SIZING******************/
 /********************MEDIA-SIZING******************/
