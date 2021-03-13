@@ -408,7 +408,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -655px);
+    transform: translate(0px, -625px);
   }
 }
 
@@ -509,7 +509,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -800px);
+    transform: translate(0px, -790px);
   }
 }
 
@@ -594,7 +594,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -510px);
+    transform: translate(0px, -485px);
   }
 }
 /**************1920 × 1440******************/
@@ -694,7 +694,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -500px);
+    transform: translate(0px, -475px);
   }
 }
 
@@ -896,7 +896,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -510px);
+    transform: translate(0px, -480px);
   }
 }
 
@@ -1098,7 +1098,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -420px);
+    transform: translate(0px, -390px);
   }
 }
 
@@ -1199,7 +1199,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -420px);
+    transform: translate(0px, -390px);
   }
 }
 /***********************1600px X 900px************************/
@@ -1300,7 +1300,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -420px);
+    transform: translate(0px, -390px);
   }
 }
 /***********************1536px X 864px************************/
@@ -1401,7 +1401,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -385px);
+    transform: translate(0px, -365px);
   }
 }
 
@@ -1502,7 +1502,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -375px);
+    transform: translate(0px, -355px);
   }
 }
 /***********************1440px X 900px************************/
@@ -1602,7 +1602,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -355px);
+    transform: translate(0px, -340px);
   }
 }
 
@@ -1703,7 +1703,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -375px);
+    transform: translate(0px, -355px);
   }
 }
 /***********************1366px X 768px************************/
@@ -1904,7 +1904,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -395px);
+    transform: translate(0px, -370px);
   }
 }
 /***********************1280px X 800px************************/
@@ -2004,7 +2004,7 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -345px);
+    transform: translate(0px, -330px);
   }
 }
 /***********************1280px X 720px************************/
@@ -2205,12 +2205,12 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -370px);
+    transform: translate(0px, -355px);
   }
 }
 
 /**************1024 × 768*******************/
-@media only screen and (max-width: 1026px) and (min-width: 1022px) and (max-height: 770px) and (min-height: 767px) {
+@media only screen and (max-width: 1026px) and (min-width: 1022px) and (max-height: 770px) and (min-height: 766px) {
   #skills-section2 {
     position: relative;
     width: 100%;
@@ -2307,6 +2307,209 @@
 
   #skills-section2:hover .about-landscape {
     transform: translate(0px, -300px);
+  }
+}
+
+/**************768 × 1024*******************/
+@media only screen and (max-width: 770px) and (min-width: 766px) and (max-height: 1026px) and (min-height: 1022px) {
+  #skills-section2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: rgb(252, 252, 251);
+  }
+
+  .skills-header {
+    position: relative;
+    text-align: center;
+    top: 480px;
+    left: 0px;
+    font-size: 70px;
+    letter-spacing: 10px;
+    color: rgb(252, 252, 251);
+    font-family: "Playfair Display", serif;
+    z-index: 100;
+  }
+
+  .skills-h2 {
+    position: relative;
+    text-align: center;
+    left: -2px;
+    top: 680px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    word-spacing: 8px;
+    font-family: "Playfair Display", serif;
+    color: rgb(252, 252, 251);
+    z-index: 100;
+  }
+
+  .section2-cloud-border {
+    position: absolute;
+    transform: rotate(-180deg);
+  }
+
+  .top-cloud {
+    position: relative;
+    transform: rotate(180deg);
+    top: -650px;
+    z-index: 99;
+  }
+
+  .sun {
+    position: absolute;
+    top: -1380px;
+    left: 0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
+    transition: transform 4s ease-in-out;
+    z-index: 98;
+  }
+
+  #skills-section2:hover .sun {
+    transform: translate(0px, 1650px);
+  }
+
+  .section-2-header {
+    text-align: center;
+    color: rgb(128, 229, 247);
+  }
+
+  .section2-ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+  }
+
+  .section2-nav {
+    position: absolute;
+    top: 40px;
+    width: 1%;
+    margin: 22.3% 2%;
+    z-index: 100;
+  }
+
+  .fas {
+    font-size: 20px;
+  }
+
+  .color-sec2 {
+    color: rgb(104, 247, 38);
+  }
+
+  .about-landscape {
+    position: relative;
+    top: 500px;
+    transition: transform 1s ease-in-out;
+    z-index: 98;
+  }
+
+  #skills-section2:hover .about-landscape {
+    transform: translate(0px, -380px);
+  }
+}
+
+/**************1024 × 600*******************/
+@media only screen and (max-width: 1026px) and (min-width: 1022px) and (max-height: 602px) and (min-height: 598px) {
+  #skills-section2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: rgb(252, 252, 251);
+  }
+
+  .skills-header {
+    position: relative;
+    text-align: center;
+    top: 210px;
+    left: 0px;
+    font-size: 70px;
+    letter-spacing: 10px;
+    color: rgb(252, 252, 251);
+    font-family: "Playfair Display", serif;
+    z-index: 100;
+  }
+
+  .skills-h2 {
+    position: relative;
+    text-align: center;
+    top: 300px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    font-family: "Playfair Display", serif;
+    color: rgb(252, 252, 251);
+    z-index: 100;
+  }
+
+  .section2-cloud-border {
+    position: absolute;
+    transform: rotate(-180deg);
+  }
+
+  .top-cloud {
+    position: relative;
+    transform: rotate(180deg);
+    top: -650px;
+    z-index: 99;
+  }
+
+  .sun {
+    position: absolute;
+    top: -1380px;
+    left: 0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
+    transition: transform 4s ease-in-out;
+    z-index: 98;
+  }
+
+  #skills-section2:hover .sun {
+    transform: translate(0px, 1450px);
+  }
+
+  .section-2-header {
+    text-align: center;
+    color: rgb(128, 229, 247);
+  }
+
+  .section2-ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+  }
+
+  .section2-nav {
+    position: absolute;
+    top: 40px;
+    width: 1%;
+    margin: 22.3% 2%;
+    z-index: 100;
+  }
+
+  .fas {
+    font-size: 20px;
+  }
+
+  .color-sec2 {
+    color: rgb(104, 247, 38);
+  }
+
+  .about-landscape {
+    position: relative;
+    top: -100px;
+    transition: transform 1s ease-in-out;
+    z-index: 98;
+  }
+
+  #skills-section2:hover .about-landscape {
+    transform: translate(0px, -350px);
   }
 }
 
@@ -2407,6 +2610,6 @@
   }
 
   #skills-section2:hover .about-landscape {
-    transform: translate(0px, -480px);
+    transform: translate(0px, -455px);
   }
 }

@@ -11,7 +11,7 @@
   height: 100vh;
   top: 1100px;
   transition: transform 800ms ease-in-out;
-  z-index: 100;
+  z-index: 99;
 }
 
 #projects-section3:hover .section3-night-img {
@@ -58,7 +58,7 @@
 .section3-ul {
   position: relative;
   width: 20px;
-  top: -900px;
+  top: -950px;
   display: flex;
   flex-direction: column;
   margin: 22.3% 2%;
@@ -80,8 +80,63 @@
 }
 
 #projects-section3:hover .section3-skyline-img {
-  transform: translate(0px, -1210px);
+  transform: translate(0px, -1250px);
   -moz-transform: translate(0px, -1190px);
+}
+
+.project-flex {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: -2500px;
+  z-index: 99;
+}
+
+.pro1-container {
+  position: relative;
+  top: 300px;
+  left: -900px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background: ivory;
+  margin-right: 50px;
+  transition: transform 1s ease-in-out;
+}
+#projects-section3:hover .pro1-container {
+  transform: translate(400px, 0px);
+}
+
+.pro2-container {
+  position: relative;
+  top: -350px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background: ivory;
+  padding: 50px;
+  transition: transform 1s ease-in-out;
+}
+#projects-section3:hover .pro2-container {
+  transform: translate(0px, 350px);
+  transition-delay: 1.4s;
+}
+
+.pro3-container {
+  position: relative;
+  left: 900px;
+  top: 300px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background: ivory;
+  margin-left: 50px;
+  transition: transform 1s ease-in-out;
+}
+#projects-section3:hover .pro3-container {
+  transform: translate(-400px, 0px);
+  transition-delay: 1s;
 }
 
 /********************TRAFFIC-SECTION********************/
@@ -2338,7 +2393,7 @@
   .section3-ul {
     position: relative;
     width: 20px;
-    top: -900px;
+    top: -650px;
     display: flex;
     flex-direction: column;
     margin: 22.3% 2%;
@@ -2427,6 +2482,224 @@
 
   #projects-section3:hover .section-3-header {
     transform: translate(-620px, 0px);
+  }
+
+  .moon {
+    position: absolute;
+    top: -500px;
+    left: 1200px;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 100px rgb(255, 255, 255));
+    transition: transform 2s ease-in-out;
+    z-index: 100;
+  }
+
+  #projects-section3:hover .moon {
+    transform: translate(-650px, 150px);
+    transition-delay: 1s;
+  }
+
+  .section3-ul {
+    position: relative;
+    width: 20px;
+    top: -765px;
+    display: flex;
+    flex-direction: column;
+    margin: 22.3% 2%;
+  }
+
+  .section3-skyline-img {
+    position: relative;
+    top: -160px;
+    filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+    transition: transform 1s ease-in-out;
+    z-index: 100;
+  }
+
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -750px);
+  }
+
+  /********************TRAFFIC-SECTION********************/
+
+  .sec3-traffic-container {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0;
+    z-index: 100;
+  }
+  .car-s {
+    position: absolute;
+    top: 22px;
+    left: 1230px;
+    z-index: 95;
+  }
+
+  .car-s3 {
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    z-index: 95;
+  }
+}
+
+/**************768 × 1024*******************/
+@media only screen and (max-width: 770px) and (min-width: 766px) and (max-height: 1026px) and (min-height: 1022px) {
+  #projects-section3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(47, 47, 88);
+    z-index: 97;
+  }
+
+  .section3-night-img {
+    position: relative;
+    top: 1050px;
+    height: 100vh;
+    transition: transform 1s ease-in-out;
+    z-index: 100;
+  }
+
+  #projects-section3:hover .section3-night-img {
+    transform: translate(0px, -1050px);
+  }
+
+  #projects-section3:hover .section3-cover {
+    transform: translate(1950px, 0px);
+  }
+
+  .sec3-header-container {
+    width: 80%;
+  }
+
+  .section-3-header {
+    position: relative;
+    top: -880px;
+    left: 1100px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    letter-spacing: 20px;
+    transition: transform 1.5s ease-in-out;
+    z-index: 100;
+  }
+
+  #projects-section3:hover .section-3-header {
+    transform: translate(-800px, 0px);
+  }
+
+  .moon {
+    position: absolute;
+    top: -500px;
+    left: 1200px;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 100px rgb(255, 255, 255));
+    transition: transform 2s ease-in-out;
+    z-index: 100;
+  }
+
+  #projects-section3:hover .moon {
+    transform: translate(-950px, 190px);
+    transition-delay: 1s;
+  }
+
+  .section3-ul {
+    position: relative;
+    width: 20px;
+    top: -765px;
+    display: flex;
+    flex-direction: column;
+    margin: 22.3% 2%;
+  }
+
+  .section3-skyline-img {
+    position: relative;
+    top: -160px;
+    filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+    transition: transform 1s ease-in-out;
+    z-index: 100;
+  }
+
+  #projects-section3:hover .section3-skyline-img {
+    transform: translate(0px, -530px);
+  }
+
+  /********************TRAFFIC-SECTION********************/
+
+  .sec3-traffic-container {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0;
+    z-index: 100;
+  }
+  .car-s {
+    position: absolute;
+    top: 22px;
+    left: 1230px;
+    z-index: 95;
+  }
+
+  .car-s3 {
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    z-index: 95;
+  }
+}
+
+/**************1024 × 600*******************/
+@media only screen and (max-width: 1026px) and (min-width: 1022px) and (max-height: 602px) and (min-height: 598px) {
+  #projects-section3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(47, 47, 88);
+    z-index: 97;
+  }
+
+  .section3-night-img {
+    position: relative;
+    top: 950px;
+    height: 100vh;
+    transition: transform 1s ease-in-out;
+    z-index: 100;
+  }
+
+  #projects-section3:hover .section3-night-img {
+    transform: translate(0px, -950px);
+  }
+
+  #projects-section3:hover .section3-cover {
+    transform: translate(1950px, 0px);
+  }
+
+  .sec3-header-container {
+    width: 80%;
+  }
+
+  .section-3-header {
+    position: relative;
+    top: -400px;
+    left: 800px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    font-weight: 100;
+    letter-spacing: 20px;
+    transition: transform 1.5s ease-in-out;
+    z-index: 100;
+  }
+
+  #projects-section3:hover .section-3-header {
+    transform: translate(-700px, 0px);
   }
 
   .moon {
