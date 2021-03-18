@@ -61,16 +61,3 @@
     width: 15%;
   }
 }
-
-@media only screen and (max-width: 1026px) and (min-width: 1022px) and (max-height: 770px) and (min-height: 574px) {
-  .footer-nav {
-    width: 40%;
-  }
-}
-
-/**************768 × 1024*******************/
-@media only screen and (max-width: 770px) and (min-width: 766px) and (max-height: 1026px) and (min-height: 1022px) {
-  .footer-nav {
-    width: 50%;
-  }
-}
