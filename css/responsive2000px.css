@@ -1597,6 +1597,25 @@
   #skills-section2:hover .sun {
     transform: translate(0px, 1400px);
   }
+
+  /*************FOOTER***************/
+  .footer-nav {
+    width: 35%;
+  }
+  .fa-linkedin {
+    padding: 20px;
+    font-size: 35px;
+  }
+
+  .fa-github-square {
+    padding: 20px 0px 0 0;
+    font-size: 35px;
+  }
+
+  .copyrights {
+    letter-spacing: 4px;
+    flex: 1;
+  }
 }
 
 /**************1030px*************/
@@ -1751,6 +1770,29 @@
   }
   #skills-section2:hover .sun {
     transform: translate(0px, 1650px);
+  }
+}
+
+/***************FOOTER****************/
+/**************918px*************/
+@media (max-width: 918px) {
+  /*************FOOTER***************/
+  .footer-nav {
+    width: 45%;
+  }
+  .fa-linkedin {
+    padding: 20px;
+    font-size: 35px;
+  }
+
+  .fa-github-square {
+    padding: 20px 0px 0 0;
+    font-size: 35px;
+  }
+
+  .copyrights {
+    letter-spacing: 4px;
+    flex: 1;
   }
 }
 /*****************871px****************/
@@ -1963,6 +2005,25 @@
   }
   #skills-section2:hover .sun {
     transform: translate(0px, 1400px);
+  }
+
+  /*************FOOTER***************/
+  .footer-nav {
+    width: 55%;
+  }
+  .fa-linkedin {
+    padding: 20px;
+    font-size: 35px;
+  }
+
+  .fa-github-square {
+    padding: 20px 0px 0 0;
+    font-size: 35px;
+  }
+
+  .copyrights {
+    letter-spacing: 4px;
+    flex: 1;
   }
 }
 
