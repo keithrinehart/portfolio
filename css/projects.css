@@ -35,6 +35,7 @@
 
 .project1-video {
   position: relative;
+  height: 200px;
   left: -40px;
   border: 1px solid rgba(161, 159, 159, 0.603);
   border-radius: 5px;
