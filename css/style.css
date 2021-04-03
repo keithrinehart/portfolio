@@ -10,7 +10,6 @@ html {
 
 #header {
   width: 100%;
-
   overflow: hidden;
   background: rgb(252, 252, 251);
 }
@@ -203,7 +202,7 @@ html {
   left: 157px;
   width: 17px;
   height: 20px;
-  background-color: rgb(178, 247, 252);
+  background-color: rgb(153, 239, 245);
 }
 
 .intro-name-square2 {
