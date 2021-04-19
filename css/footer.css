@@ -63,3 +63,26 @@
     width: 15%;
   }
 }
+
+@media (max-width: 318px) {
+  .fa-linkedin {
+    color: ivory;
+    padding: 20px 0 0 0;
+    font-size: 35px;
+    transition: 800ms ease;
+  }
+
+  .fa-github-square {
+    color: ivory;
+    padding: 20px 0 0 0;
+    font-size: 35px;
+    transition: 800ms ease;
+  }
+
+  .copyrights {
+    font-size: 10px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    flex: 0;
+  }
+}

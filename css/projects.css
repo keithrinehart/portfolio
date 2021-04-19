@@ -331,13 +331,16 @@
 }
 
 /*****************PROJECT 3 DISPLAY END******************/
-
-.section-3-header {
-  position: relative;
+.projects-header-container {
+  position: absolute;
   display: flex;
   justify-content: center;
   text-align: center;
-  top: -900px;
+  width: 100%;
+  top: 0;
+}
+.section-3-header {
+  position: relative;
   color: #fff;
   font-size: 30px;
   font-family: "Playfair Display", serif;
@@ -443,7 +446,7 @@
 
 .section3-ul {
   position: relative;
-  top: -970px;
+  top: -925px;
   width: 20px;
   display: flex;
   flex-direction: column;
@@ -733,6 +736,20 @@
 /**********SIZING*************/
 /**********SIZING*************/
 /**********SIZING*************/
+@media (max-width: 921px) {
+  .project-selection-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  #project-selection-wrapper {
+    width: 100%;
+  }
+  .project-numbers {
+    margin: 0 100px;
+  }
+}
 
 @media (max-width: 646px) {
   .project3-video {
@@ -849,6 +866,14 @@
   .project3-back-btn-container {
     top: -40px;
   }
+
+  .section-3-header {
+    font-size: 25px;
+  }
+
+  .project-numbers {
+    margin: 0 70px;
+  }
 }
 
 @media (max-width: 490px) {
@@ -872,6 +897,14 @@
   }
 }
 
+@media (max-width: 447px) {
+  .section-3-header {
+    font-size: 20px;
+    padding-top: 5px;
+    letter-spacing: 5px;
+  }
+}
+
 @media (max-width: 400px) {
   .project1-p {
     width: 300px;
@@ -883,6 +916,11 @@
     font-size: 11px;
     top: -50px;
     width: 300px;
+  }
+}
+@media (max-width: 373px) {
+  .project-numbers {
+    margin: 0 40px;
   }
 }
 
@@ -907,22 +945,5 @@
     font-size: 11px;
     top: -50px;
     width: 270px;
-  }
-}
-
-@media (max-height: 300px) {
-  /**********PROJECT 3**********/
-  .project3-video {
-    display: none;
-  }
-
-  .link-flex {
-    z-index: 150;
-  }
-
-  .project3-p {
-    font-size: 11px;
-    top: -50px;
-    width: 550px;
   }
 }
