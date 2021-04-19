@@ -32,19 +32,19 @@ let gettingProjectThree = function () {
 
 let resetProject3 = function () {
   projectThree.style.transition = "transform 1s ease-in-out";
-  projectThree.style.transform = "translate(-2000px, 1500px)";
+  projectThree.style.transform = "translate(-4000px, 1500px)";
 };
 projectThreeBack.onclick = resetProject3;
 
 let resetProject2 = function () {
   projectTwo.style.transition = "transform 1s ease-in-out";
-  projectTwo.style.transform = "translate(-2000px, 1500px)";
+  projectTwo.style.transform = "translate(-4000px, 1500px)";
 };
 projectTwoBack.onclick = resetProject2;
 
 let resetProject = function () {
   projectOne.style.transition = "transform 1s ease-in-out";
-  projectOne.style.transform = "translate(-2000px, 1500px)";
+  projectOne.style.transform = "translate(-4000px, 1500px)";
 };
 projectOneBack.onclick = resetProject;
 

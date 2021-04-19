@@ -104,13 +104,13 @@
 
 .skills-landscape {
   position: absolute;
-  bottom: -200px;
+  bottom: -900px;
   transition: transform 1s ease-in-out;
   z-index: 98;
 }
 
 #skills-section2:hover .skills-landscape {
-  transform: translate(0px, -190px);
+  transform: translate(0px, -890px);
 }
 @media (max-width: 980px) {
   .skills-header {
