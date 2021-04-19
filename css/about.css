@@ -815,3 +815,34 @@
   bottom: 0;
   z-index: 80;
 }
+
+@media (max-width: 400px) {
+  .me-img {
+    top: 40px;
+  }
+
+  .about-icon-flex {
+    display: none;
+  }
+
+  .fa-node-js {
+    display: none;
+  }
+  .fa-css3-alt {
+    display: none;
+  }
+  .fa-html5 {
+    display: none;
+  }
+  .fa-laptop-code {
+    display: none;
+  }
+  #about-me-p {
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 500;
+    word-spacing: 1px;
+    max-width: 600px;
+    min-width: 280px;
+  }
+}
