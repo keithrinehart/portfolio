@@ -1,14 +1,53 @@
 #skills-section2 {
   position: relative;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100vh;
   overflow: hidden;
   background: rgb(252, 252, 251);
+  z-index: 250;
+  font-family: "Playfair Display", serif;
+}
+
+.top-cloud {
+  position: relative;
+  transform: rotate(180deg);
+  top: -100px;
+  z-index: 99;
+}
+
+.sun-container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 0px;
+}
+
+.sun {
+  position: relative;
+  top: -1000px;
+  width: 1500px;
+  border-radius: 50%;
+  opacity: 0.6;
+  box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
+  z-index: 98;
+  transition: transform 2s ease-in-out;
+}
+
+#skills-section2:hover .sun {
+  transform: translate(0px, 1700px);
+}
+
+.skills-header-container {
+  position: relative;
+  top: -150px;
 }
 
 .skills-header {
   position: relative;
-  top: 250px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 70px;
   letter-spacing: 10px;
@@ -18,7 +57,7 @@
 
 .skills-h2 {
   position: relative;
-  top: 300px;
+  top: 0px;
   text-align: center;
   font-size: 30px;
   font-weight: 600;
@@ -32,27 +71,6 @@
 .section2-cloud-border {
   position: relative;
   transform: rotate(-180deg);
-}
-
-.top-cloud {
-  position: relative;
-  transform: rotate(180deg);
-  top: -1200px;
-  z-index: 99;
-}
-
-.sun {
-  position: absolute;
-  bottom: -650px;
-  left: 0;
-  border-radius: 50%;
-  box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
-  z-index: 98;
-}
-
-.section-2-header {
-  text-align: center;
-  color: rgb(128, 229, 247);
 }
 
 .section2-ul {
@@ -78,14 +96,109 @@
   color: rgb(104, 247, 38);
 }
 
-.about-landscape {
+.skills-landscape {
   position: absolute;
-  bottom: -500px;
-  left: 0;
+  bottom: -200px;
   transition: transform 1s ease-in-out;
   z-index: 98;
 }
 
-#skills-section2:hover .about-landscape {
-  transform: translate(0px, -500px);
+#skills-section2:hover .skills-landscape {
+  transform: translate(0px, -190px);
+}
+
+@media (max-width: 1454px) {
+  .skills-header-container {
+    position: relative;
+    top: 20px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .skills-header-container {
+    position: relative;
+    top: 100px;
+  }
+
+  .skills-h2 {
+    top: 0px;
+    font-size: 25px;
+    letter-spacing: 12px;
+    word-spacing: 30px;
+  }
+}
+@media (max-width: 925px) {
+  .skills-h2 {
+    top: 0px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+  }
+}
+@media (max-width: 710px) {
+  .top-cloud {
+    position: relative;
+    transform: rotate(180deg);
+    top: 0px;
+    z-index: 99;
+  }
+  .skills-header-container {
+    position: relative;
+    top: 200px;
+  }
+  .skills-h2 {
+    top: 0px;
+    font-size: 22px;
+    letter-spacing: 5px;
+    word-spacing: 15px;
+  }
+}
+@media (max-width: 620px) {
+  .skills-header-container {
+    position: relative;
+    top: 200px;
+  }
+
+  .skills-h2 {
+    top: 0px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+  }
+}
+@media (max-width: 490px) {
+  .skills-header-container {
+    position: relative;
+    top: 250px;
+  }
+
+  .skills-h2 {
+    top: 0px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+  }
+}
+@media (max-width: 380px) {
+  .skills-header-container {
+    position: relative;
+    top: 250px;
+  }
+  .skills-header {
+    font-size: 50px;
+  }
+  .skills-h2 {
+    top: 0px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+  }
+}
+@media (max-width: 330px) {
+  .skills-h2 {
+    top: 0px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+  }
 }
