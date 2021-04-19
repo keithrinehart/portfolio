@@ -18,7 +18,7 @@
   .cover1 {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 150%;
     /*
         background: rgb(128, 229, 247);
         */
@@ -293,241 +293,8 @@
   #header:hover .airballoon2 {
     transform: translate(-690px, 250px);
   }
-
-  .annas-cloud {
-    position: absolute;
-    left: 0;
-    bottom: -135%;
-    z-index: 100;
-  }
-
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-
-  /****************2000px******************/
-  /****************2000px******************/
-  /****************2000px******************/
-  /****************2000px******************/
-  #skills-section2 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  .skills-header {
-    position: relative;
-    top: 300px;
-    text-align: center;
-    font-size: 70px;
-    letter-spacing: 10px;
-    color: rgb(252, 252, 251);
-    z-index: 100;
-  }
-
-  .skills-h2 {
-    position: relative;
-    top: 380px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-    letter-spacing: 12px;
-    word-spacing: 30px;
-    font-family: "Playfair Display", serif;
-    color: rgb(252, 252, 251);
-    z-index: 100;
-  }
-
-  .section2-cloud-border {
-    position: relative;
-    transform: rotate(-180deg);
-  }
-
-  .top-cloud {
-    position: relative;
-    transform: rotate(180deg);
-    top: -1200px;
-    z-index: 99;
-  }
-
-  .sun {
-    position: relative;
-    top: -3420px;
-    left: 0;
-    border-radius: 50%;
-    box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
-    transition: transform 2s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1600px);
-  }
-
-  .section-2-header {
-    text-align: center;
-    color: rgb(128, 229, 247);
-  }
-
-  .section2-ul {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
-  }
-
-  .section2-nav {
-    position: absolute;
-    top: 40px;
-    width: 1%;
-    margin: 22.3% 2%;
-    z-index: 100;
-  }
-
-  .fas {
-    font-size: 20px;
-  }
-
-  .color-sec2 {
-    color: rgb(104, 247, 38);
-  }
-
-  .about-landscape {
-    position: absolute;
-    bottom: -500px;
-    left: 0;
-    transition: transform 1s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .about-landscape {
-    transform: translate(0px, -500px);
-  }
-
-  /***********PROJECTS*************/
-  .section-3-header {
-    top: -980px;
-  }
 }
 
-@media (max-width: 1892px) {
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-
-  /****************1892px******************/
-  /****************1892px******************/
-  /****************1892px******************/
-  /****************1892px******************/
-  #skills-section2 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  .skills-header {
-    position: relative;
-    top: 250px;
-    text-align: center;
-    font-size: 70px;
-    letter-spacing: 10px;
-    color: rgb(252, 252, 251);
-    z-index: 100;
-  }
-
-  .skills-h2 {
-    position: relative;
-    top: 300px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-    letter-spacing: 12px;
-    word-spacing: 30px;
-    font-family: "Playfair Display", serif;
-    color: rgb(252, 252, 251);
-    z-index: 100;
-  }
-
-  .section2-cloud-border {
-    position: relative;
-    transform: rotate(-180deg);
-  }
-
-  .top-cloud {
-    position: relative;
-    transform: rotate(180deg);
-    top: -1200px;
-    z-index: 99;
-  }
-
-  .sun {
-    position: relative;
-    top: -3750px;
-    left: 0;
-    border-radius: 50%;
-    box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
-    transition: transform 2s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1980px);
-  }
-
-  .section-2-header {
-    text-align: center;
-    color: rgb(128, 229, 247);
-  }
-
-  .section2-ul {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
-  }
-
-  .section2-nav {
-    position: absolute;
-    top: 40px;
-    width: 1%;
-    margin: 22.3% 2%;
-    z-index: 100;
-  }
-
-  .fas {
-    font-size: 20px;
-  }
-
-  .color-sec2 {
-    color: rgb(104, 247, 38);
-  }
-
-  .about-landscape {
-    position: absolute;
-    bottom: -500px;
-    left: 0;
-    transition: transform 1s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .about-landscape {
-    transform: translate(0px, -500px);
-  }
-}
 /**************1796px********************/
 /**************1796px********************/
 /**************1796px********************/
@@ -592,235 +359,6 @@
   #header:hover .airballoon2 {
     transform: translate(-890px, 400px);
   }
-
-  .annas-cloud {
-    position: absolute;
-    left: 0;
-    top: 1600px;
-    z-index: 100;
-  }
-
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-
-  /****************1796px******************/
-  /****************1796px******************/
-  /****************1796px******************/
-  /****************1796px******************/
-  #skills-section2 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  .skills-header {
-    position: relative;
-    top: 300px;
-    text-align: center;
-    font-size: 70px;
-    letter-spacing: 10px;
-    color: rgb(252, 252, 251);
-    z-index: 100;
-  }
-
-  .skills-h2 {
-    position: relative;
-    top: 350px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-    letter-spacing: 12px;
-    word-spacing: 30px;
-    font-family: "Playfair Display", serif;
-    color: rgb(252, 252, 251);
-    z-index: 100;
-  }
-
-  .section2-cloud-border {
-    position: relative;
-    transform: rotate(-180deg);
-  }
-
-  .top-cloud {
-    position: relative;
-    transform: rotate(180deg);
-    top: -1200px;
-    z-index: 99;
-  }
-
-  .sun {
-    position: relative;
-    top: -3400px;
-    left: 0;
-    border-radius: 50%;
-    box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
-    transition: transform 1s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1850px);
-  }
-
-  .section-2-header {
-    text-align: center;
-    color: rgb(128, 229, 247);
-  }
-
-  .section2-ul {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
-  }
-
-  .section2-nav {
-    position: absolute;
-    top: 40px;
-    width: 1%;
-    margin: 22.3% 2%;
-    z-index: 100;
-  }
-
-  .fas {
-    font-size: 20px;
-  }
-
-  .color-sec2 {
-    color: rgb(104, 247, 38);
-  }
-
-  .about-landscape {
-    position: absolute;
-    bottom: -500px;
-    left: 0;
-    transition: transform 1s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .about-landscape {
-    transform: translate(0px, -500px);
-  }
-}
-
-@media (max-width: 1650px) {
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-
-  /****************1650px******************/
-  /****************1650px******************/
-  /****************1650px******************/
-  /****************1650px******************/
-  #skills-section2 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  .skills-header {
-    position: relative;
-    top: 300px;
-    text-align: center;
-    font-size: 70px;
-    letter-spacing: 10px;
-    color: rgb(252, 252, 251);
-    z-index: 100;
-  }
-
-  .skills-h2 {
-    position: relative;
-    top: 350px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-    letter-spacing: 12px;
-    word-spacing: 30px;
-    font-family: "Playfair Display", serif;
-    color: rgb(252, 252, 251);
-    z-index: 100;
-  }
-
-  .section2-cloud-border {
-    position: relative;
-    transform: rotate(-180deg);
-  }
-
-  .top-cloud {
-    position: relative;
-    transform: rotate(180deg);
-    top: -1000px;
-    z-index: 99;
-  }
-
-  .sun {
-    position: relative;
-    top: -3350px;
-    left: 0;
-    border-radius: 50%;
-    box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
-    transition: transform 2s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1900px);
-  }
-
-  .section-2-header {
-    text-align: center;
-    color: rgb(128, 229, 247);
-  }
-
-  .section2-ul {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
-  }
-
-  .section2-nav {
-    position: absolute;
-    top: 40px;
-    width: 1%;
-    margin: 22.3% 2%;
-    z-index: 100;
-  }
-
-  .fas {
-    font-size: 20px;
-  }
-
-  .color-sec2 {
-    color: rgb(104, 247, 38);
-  }
-
-  .about-landscape {
-    position: absolute;
-    bottom: -500px;
-    left: 0;
-    transition: transform 1s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .about-landscape {
-    transform: translate(0px, -500px);
-  }
 }
 
 /**************1585px********************/
@@ -883,165 +421,6 @@
 
   #header:hover .airballoon2 {
     transform: translate(-1000px, 500px);
-  }
-
-  .annas-cloud {
-    position: absolute;
-    left: 0;
-    top: 1500px;
-    z-index: 100;
-  }
-
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-
-  /****************1585px******************/
-  /****************1585px******************/
-  /****************1585px******************/
-  /****************1585px******************/
-  #skills-section2 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  .skills-header {
-    position: relative;
-    top: 300px;
-    text-align: center;
-    font-size: 70px;
-    letter-spacing: 10px;
-    color: rgb(252, 252, 251);
-    z-index: 100;
-  }
-
-  .skills-h2 {
-    position: relative;
-    top: 400px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-    letter-spacing: 12px;
-    word-spacing: 30px;
-    font-family: "Playfair Display", serif;
-    color: rgb(252, 252, 251);
-    z-index: 100;
-  }
-
-  .section2-cloud-border {
-    position: relative;
-    transform: rotate(-180deg);
-  }
-
-  .top-cloud {
-    position: relative;
-    transform: rotate(180deg);
-    top: -1000px;
-    z-index: 99;
-  }
-
-  .sun {
-    position: relative;
-    top: -2900px;
-    left: 0;
-    border-radius: 50%;
-    box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
-    transition: transform 2s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1600px);
-  }
-
-  .section-2-header {
-    text-align: center;
-    color: rgb(128, 229, 247);
-  }
-
-  .section2-ul {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
-  }
-
-  .section2-nav {
-    position: absolute;
-    top: 40px;
-    width: 1%;
-    margin: 22.3% 2%;
-    z-index: 100;
-  }
-
-  .fas {
-    font-size: 20px;
-  }
-
-  .color-sec2 {
-    color: rgb(104, 247, 38);
-  }
-
-  .about-landscape {
-    position: absolute;
-    bottom: -500px;
-    left: 0;
-    transition: transform 1s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .about-landscape {
-    transform: translate(0px, -500px);
-  }
-}
-
-/**************1512px********************/
-/**************1512px********************/
-/**************1512px********************/
-/**************1512px********************/
-/**************1512px********************/
-@media (max-width: 1512px) {
-  .annas-cloud {
-    position: absolute;
-    left: 0;
-    top: 1440px;
-    z-index: 100;
-  }
-
-  .sun {
-    position: relative;
-    top: -2800px;
-    left: 0;
-    border-radius: 50%;
-    box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
-    transition: transform 2s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1650px);
-  }
-}
-
-/**************1465px********************/
-/**************1465px********************/
-/**************1465px********************/
-/**************1465px********************/
-/**************1465px********************/
-@media (max-width: 1465px) {
-  .annas-cloud {
-    position: absolute;
-    left: 0;
-    top: 1420px;
-    z-index: 100;
   }
 }
 
@@ -1107,193 +486,6 @@
   #header:hover .airballoon2 {
     transform: translate(-1150px, 600px);
   }
-  .annas-cloud {
-    position: absolute;
-    left: 0;
-    top: 1500px;
-    z-index: 100;
-  }
-
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-
-  /****************1400px******************/
-  /****************1400px******************/
-  /****************1400px******************/
-  /****************1400px******************/
-  #skills-section2 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  .skills-header {
-    position: relative;
-    top: 300px;
-    text-align: center;
-    font-size: 70px;
-    letter-spacing: 10px;
-    color: rgb(252, 252, 251);
-    z-index: 100;
-  }
-
-  .skills-h2 {
-    position: relative;
-    top: 400px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-    letter-spacing: 12px;
-    word-spacing: 30px;
-    font-family: "Playfair Display", serif;
-    color: rgb(252, 252, 251);
-    z-index: 100;
-  }
-
-  .section2-cloud-border {
-    position: relative;
-    transform: rotate(-180deg);
-  }
-
-  .top-cloud {
-    position: relative;
-    transform: rotate(180deg);
-    top: -1000px;
-    z-index: 99;
-  }
-
-  .sun {
-    position: relative;
-    top: -1300px;
-    left: 0;
-    border-radius: 50%;
-    box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
-    z-index: 98;
-  }
-
-  .section-2-header {
-    text-align: center;
-    color: rgb(128, 229, 247);
-  }
-
-  .section2-ul {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
-  }
-
-  .section2-nav {
-    position: absolute;
-    top: 40px;
-    width: 1%;
-    margin: 22.3% 2%;
-    z-index: 100;
-  }
-
-  .fas {
-    font-size: 20px;
-  }
-
-  .color-sec2 {
-    color: rgb(104, 247, 38);
-  }
-
-  .about-landscape {
-    position: absolute;
-    bottom: -500px;
-    left: 0;
-    transition: transform 1s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .about-landscape {
-    transform: translate(0px, -500px);
-  }
-}
-
-/**************1399px********************/
-/**************1399px********************/
-/**************1399px********************/
-/**************1399px********************/
-@media (max-width: 1399px) {
-  .annas-cloud {
-    position: absolute;
-    left: 0;
-    top: 1380px;
-    z-index: 100;
-  }
-
-  .skills-header {
-    top: 400px;
-  }
-
-  .skills-h2 {
-    top: 450px;
-
-    letter-spacing: 5px;
-    word-spacing: 25px;
-  }
-
-  .top-cloud {
-    position: relative;
-    transform: rotate(180deg);
-    top: -800px;
-    z-index: 99;
-  }
-  .sun {
-    position: relative;
-    top: -2500px;
-    left: 0;
-    border-radius: 50%;
-    box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
-    transition: transform 2s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1500px);
-  }
-}
-
-/**************1300px********************/
-/**************1300px********************/
-/**************1300px********************/
-/**************1300px********************/
-@media (max-width: 1300px) {
-  .annas-cloud {
-    position: absolute;
-    left: 0;
-    top: 1320px;
-    z-index: 100;
-  }
-
-  .top-cloud {
-    position: relative;
-    transform: rotate(180deg);
-    top: -800px;
-    z-index: 99;
-  }
-  .sun {
-    position: relative;
-    top: -2500px;
-    left: 0;
-    border-radius: 50%;
-    box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
-    transition: transform 2s ease-in-out;
-    z-index: 98;
-  }
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1600px);
-  }
 }
 
 /**************1250px********************/
@@ -1353,6 +545,7 @@
   .airballoon1 {
     width: 250px;
   }
+
   #header:hover .airballoon1 {
     transform: translate(70px, 200px);
   }
@@ -1363,144 +556,6 @@
 
   #header:hover .airballoon2 {
     transform: translate(-1200px, 800px);
-  }
-
-  .annas-cloud {
-    position: absolute;
-    left: 0;
-    top: 1280px;
-    z-index: 100;
-  }
-
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-  /****************SKILLS******************/
-
-  /****************1250px******************/
-  /****************1250px******************/
-  /****************1250px******************/
-  /****************1250px******************/
-  #skills-section2 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  .skills-header {
-    top: 400px;
-  }
-
-  .skills-h2 {
-    top: 500px;
-
-    letter-spacing: 5px;
-    word-spacing: 25px;
-  }
-
-  .section2-cloud-border {
-    position: relative;
-    transform: rotate(-180deg);
-  }
-
-  .top-cloud {
-    position: relative;
-    transform: rotate(180deg);
-    top: -800px;
-    z-index: 99;
-  }
-
-  .sun {
-    position: relative;
-    top: -2500px;
-    left: 0;
-    border-radius: 50%;
-    box-shadow: 0px 0px 50px 0px rgba(252, 252, 251) inset;
-    transition: transform 2s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1700px);
-  }
-
-  .section-2-header {
-    text-align: center;
-    color: rgb(128, 229, 247);
-  }
-
-  .section2-ul {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
-  }
-
-  .section2-nav {
-    position: absolute;
-    top: 40px;
-    width: 1%;
-    margin: 22.3% 2%;
-    z-index: 100;
-  }
-
-  .fas {
-    font-size: 20px;
-  }
-
-  .color-sec2 {
-    color: rgb(104, 247, 38);
-  }
-
-  .about-landscape {
-    position: absolute;
-    bottom: -500px;
-    left: 0;
-    transition: transform 1s ease-in-out;
-    z-index: 98;
-  }
-
-  #skills-section2:hover .about-landscape {
-    transform: translate(0px, -500px);
-  }
-}
-/**************1176********************/
-/**************1176********************/
-/**************1176********************/
-/**************1176********************/
-/**************1176********************/
-/**************1176********************/
-/**************1176********************/
-@media (max-width: 1176px) {
-  .annas-cloud {
-    top: 1230px;
-  }
-  .skills-header {
-    top: 450px;
-  }
-
-  .skills-h2 {
-    top: 550px;
-    font-size: 25px;
-    font-weight: 600;
-    letter-spacing: 12px;
-    word-spacing: 10px;
-  }
-  .top-cloud {
-    top: -650px;
-  }
-  .sun {
-    top: -2500px;
-    transition: transform 2s ease-in-out;
-  }
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1800px);
   }
 }
 
@@ -1560,6 +615,7 @@
   .airballoon1 {
     width: 200px;
   }
+
   #header:hover .airballoon1 {
     transform: translate(50px, 300px);
   }
@@ -1571,42 +627,12 @@
   #header:hover .airballoon2 {
     transform: translate(-1250px, 900px);
   }
-  .annas-cloud {
-    top: 1130px;
-  }
-
-  /***************SKILLS*************/
-  /***************SKILLS*************/
-  /***************SKILLS*************/
-  /***************SKILLS*************/
-  /***************SKILLS*************/
-  /************1090px***************/
-  .skills-header {
-    top: 450px;
-  }
-
-  .skills-h2 {
-    top: 570px;
-    font-size: 25px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    word-spacing: 10px;
-  }
-  .top-cloud {
-    top: -650px;
-  }
-  .sun {
-    top: -2000px;
-    transition: transform 2s ease-in-out;
-  }
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1400px);
-  }
 
   /*************FOOTER***************/
   .footer-nav {
     width: 35%;
   }
+
   .fa-linkedin {
     padding: 20px;
     font-size: 35px;
@@ -1620,38 +646,6 @@
   .copyrights {
     letter-spacing: 4px;
     flex: 1;
-  }
-}
-
-/**************1030px*************/
-/**************1030px*************/
-/**************1030px*************/
-/**************1030px*************/
-/**************1030px*************/
-@media (max-width: 1030px) {
-  .annas-cloud {
-    top: 1090px;
-  }
-  .skills-header {
-    top: 500px;
-  }
-
-  .skills-h2 {
-    top: 550px;
-    font-size: 25px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    word-spacing: 10px;
-  }
-  .top-cloud {
-    top: -650px;
-  }
-  .sun {
-    top: -2000px;
-    transition: transform 2s ease-in-out;
-  }
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1480px);
   }
 }
 
@@ -1713,6 +707,7 @@
     top: -400px;
     left: -250px;
   }
+
   #header:hover .airballoon1 {
     transform: translate(280px, -50px);
   }
@@ -1724,58 +719,6 @@
   #header:hover .airballoon2 {
     transform: translate(-1300px, 1100px);
   }
-
-  .annas-cloud {
-    top: 1120px;
-  }
-  .skills-header {
-    top: 480px;
-  }
-
-  .skills-h2 {
-    top: 590px;
-    font-size: 25px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    word-spacing: 10px;
-  }
-  .top-cloud {
-    top: -550px;
-  }
-  .sun {
-    top: -2000px;
-    transition: transform 2s ease-in-out;
-  }
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1530px);
-  }
-}
-/*****************940px****************/
-@media (max-width: 940px) {
-  .annas-cloud {
-    top: 1100px;
-  }
-  .skills-header {
-    top: 520px;
-  }
-
-  .skills-h2 {
-    top: 600px;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    word-spacing: 10px;
-  }
-  .top-cloud {
-    top: -450px;
-  }
-  .sun {
-    top: -2000px;
-    transition: transform 2s ease-in-out;
-  }
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1650px);
-  }
 }
 
 /***************FOOTER****************/
@@ -1785,6 +728,7 @@
   .footer-nav {
     width: 45%;
   }
+
   .fa-linkedin {
     padding: 20px;
     font-size: 35px;
@@ -1800,214 +744,6 @@
     flex: 1;
   }
 }
-/*****************871px****************/
-@media (max-width: 871px) {
-  .annas-cloud {
-    top: 1070px;
-  }
-  .skills-header {
-    top: 560px;
-  }
-
-  .skills-h2 {
-    top: 650px;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    word-spacing: 10px;
-  }
-  .top-cloud {
-    top: -500px;
-  }
-  .sun {
-    top: -2000px;
-    transition: transform 2s ease-in-out;
-  }
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1700px);
-  }
-
-  /*****************PROJECTS********************/
-  /*****************PROJECTS********************/
-  /*****************PROJECTS********************/
-  /*****************PROJECTS********************/
-  /*****************PROJECTS********************/
-  /*****************PROJECTS********************/
-  /*****************PROJECTS********************/
-  /*****************PROJECTS********************/
-  /*****************PROJECTS********************/
-  /*****************PROJECTS********************/
-  /*****************PROJECT 1 DISPLAY******************/
-  #project1 {
-    min-width: 200px;
-  }
-
-  .project1-transition {
-    top: -1500px;
-  }
-
-  .project1-video {
-    left: -60px;
-  }
-
-  .project1-p {
-    width: 700px;
-    font-size: 15px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-  }
-
-  #project-selection-wrapper {
-    top: 20%;
-  }
-
-  .pr1 {
-    position: relative;
-    left: 100px;
-  }
-
-  .project1-back-btn-container {
-    top: 120px;
-    left: -300px;
-  }
-
-  /*****************PROJECT 1 DISPLAY END******************/
-
-  /*****************PROJECT 2 DISPLAY******************/
-  #project2 {
-    min-width: 200px;
-  }
-
-  .project2-transition {
-    top: -1500px;
-  }
-
-  .project2-h2 {
-    margin-bottom: 20px;
-    top: 130px;
-    font-weight: 600;
-  }
-
-  .project2-video {
-    position: relative;
-    left: -40px;
-    border: 1px solid rgba(161, 159, 159, 0.603);
-    border-radius: 5px;
-    box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.555);
-  }
-
-  .project2-p {
-    width: 700px;
-    font-size: 15px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-  }
-  .project2-link {
-    top: 180px;
-    left: -83px;
-  }
-
-  .pr2 {
-    position: relative;
-  }
-
-  .project2-back-btn-container {
-    top: 120px;
-    left: -300px;
-  }
-
-  /*****************PROJECT 2 DISPLAY END******************/
-  /*****************PROJECT 3 DISPLAY******************/
-  #project3 {
-    min-width: 200px;
-  }
-
-  .pr3 {
-    position: relative;
-    left: -100px;
-  }
-
-  .project3-transition {
-    top: -1500px;
-  }
-
-  .project3-h2 {
-    position: relative;
-    margin-bottom: 20px;
-    top: 130px;
-  }
-
-  .project3-video {
-    left: -60px;
-  }
-
-  .project3-p {
-    width: 700px;
-    font-size: 15px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-  }
-
-  .project3-back-btn-container {
-    position: relative;
-    top: 120px;
-    left: -300px;
-  }
-}
-/*****************830px****************/
-@media (max-width: 830px) {
-  .annas-cloud {
-    top: 1015px;
-  }
-  .skills-header {
-    top: 610px;
-  }
-
-  .skills-h2 {
-    top: 650px;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    word-spacing: 10px;
-  }
-  .top-cloud {
-    top: -500px;
-  }
-  .sun {
-    top: -2000px;
-    transition: transform 2s ease-in-out;
-  }
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1780px);
-  }
-}
-/*****************780px****************/
-@media (max-width: 780px) {
-  .annas-cloud {
-    top: 1015px;
-  }
-  .skills-header {
-    top: 640px;
-  }
-
-  .skills-h2 {
-    top: 670px;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    word-spacing: 10px;
-  }
-  .top-cloud {
-    top: -400px;
-  }
-  .sun {
-    top: -1840px;
-    transition: transform 2s ease-in-out;
-  }
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1680px);
-  }
-}
 
 /**************750px********************/
 /**************750px********************/
@@ -2020,6 +756,7 @@
     left: -100px;
     font-size: 125px;
   }
+
   .cloud1-container {
     top: -10px;
   }
@@ -2071,6 +808,7 @@
     top: -400px;
     left: -240px;
   }
+
   #header:hover .airballoon1 {
     transform: translate(230px, -50px);
   }
@@ -2082,67 +820,19 @@
   #header:hover .airballoon2 {
     transform: translate(-1300px, 1100px);
   }
-
-  .annas-cloud {
-    top: 980px;
-  }
-  .skills-header {
-    top: 680px;
-  }
-
-  .skills-h2 {
-    top: 720px;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    word-spacing: 10px;
-  }
-  .top-cloud {
-    top: -450px;
-  }
-  .sun {
-    top: -1800px;
-    transition: transform 2s ease-in-out;
-  }
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1700px);
-  }
 }
+
 /******************730px*******************/
 /******************730px*******************/
 /******************730px*******************/
 /******************730px*******************/
 /******************730px*******************/
 @media (max-width: 730px) {
-  .annas-cloud {
-    top: 980px;
-  }
-  .skills-header {
-    top: 650px;
-  }
-
-  .skills-h2 {
-    top: 720px;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    word-spacing: 10px;
-  }
-  .top-cloud {
-    top: -450px;
-  }
-  .sun {
-    top: -1500px;
-    transition: transform 2s ease-in-out;
-  }
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1400px);
-  }
-
   /*************FOOTER***************/
   .footer-nav {
     width: 55%;
   }
+
   .fa-linkedin {
     padding: 20px;
     font-size: 35px;
@@ -2170,8 +860,6 @@
 /**************700px********************/
 @media (max-width: 700px) {
   #header {
-    width: 100%;
-    height: 100vh;
     overflow: hidden;
     background: rgb(252, 252, 251);
   }
@@ -2182,9 +870,6 @@
     font-size: 110px;
   }
 
-  .cover1 {
-    height: 100%;
-  }
   .cloud1-container {
     top: 30px;
     left: -10px;
@@ -2296,11 +981,13 @@
   /*********************************HEADER____END***********************************/
 
   .airballoon1 {
-    width: 400px;
+    position: relative;
+    width: 200px;
     z-index: 104;
-    top: -200px;
+    top: -150px;
     left: -440px;
   }
+
   #header:hover .airballoon1 {
     transform: translate(520px, -10px);
   }
@@ -2309,167 +996,7 @@
     display: none;
   }
 
-  #header:hover .airballoon2 {
-    transform: translate(-1300px, 1100px);
-  }
-
-  .annas-cloud {
-    top: 870px;
-  }
-  .skills-header {
-    top: 700px;
-  }
-
-  .skills-h2 {
-    top: 750px;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    word-spacing: 10px;
-  }
-  .top-cloud {
-    top: -450px;
-  }
-  .sun {
-    top: -1700px;
-    transition: transform 2s ease-in-out;
-  }
-  #skills-section2:hover .sun {
-    transform: translate(0px, 1700px);
-  }
-
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  #project1 {
-    min-width: 200px;
-  }
-
-  .project1-transition {
-    top: -1500px;
-  }
-
-  .project1-video {
-    left: -20px;
-  }
-
-  .project1-p {
-    width: 600px;
-    top: 30px;
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 23px;
-    word-spacing: 2px;
-  }
-
-  #project-selection-wrapper {
-    top: 20%;
-  }
-
-  .pr1 {
-    position: relative;
-    left: 150px;
-  }
-
-  .project1-back-btn-container {
-    top: 120px;
-    left: -200px;
-  }
-
-  /*****************PROJECT 1 DISPLAY END******************/
-
-  /*****************PROJECT 2 DISPLAY******************/
-  #project2 {
-    min-width: 200px;
-  }
-
-  .project2-transition {
-    top: -1500px;
-  }
-
-  .project2-h2 {
-    margin-bottom: 20px;
-    top: 130px;
-    left: 20px;
-    font-weight: 600;
-  }
-
-  .project2-video {
-    position: relative;
-    left: 0px;
-    border: 1px solid rgba(161, 159, 159, 0.603);
-    border-radius: 5px;
-    box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.555);
-  }
-
-  .project2-p {
-    width: 600px;
-    top: 30px;
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 23px;
-    word-spacing: 2px;
-  }
-  .project2-link {
-    top: 180px;
-    left: -63px;
-  }
-
-  .pr2 {
-    position: relative;
-  }
-
-  .project2-back-btn-container {
-    top: 120px;
-    left: -200px;
-  }
-
-  /*****************PROJECT 2 DISPLAY END******************/
-  /*****************PROJECT 3 DISPLAY******************/
-  #project3 {
-    min-width: 200px;
-  }
-
-  .pr3 {
-    position: relative;
-    left: -150px;
-  }
-
-  .project3-transition {
-    top: -1500px;
-  }
-
-  .project3-h2 {
-    position: relative;
-    margin-bottom: 20px;
-    top: 130px;
-  }
-
-  .project3-video {
-    left: -30px;
-  }
-
-  .project3-p {
-    width: 600px;
-    top: 30px;
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 23px;
-    word-spacing: 2px;
-  }
-
-  .project3-back-btn-container {
-    position: relative;
-    top: 120px;
-    left: -200px;
-  }
-
   /************ABOUT SECTION**************/
-
   .about-icon-flex {
     position: relative;
     left: 50px;
@@ -2477,37 +1004,18 @@
 }
 
 @media (max-width: 650px) {
-  .skills-header {
-    top: 700px;
-  }
-
-  .skills-h2 {
-    top: 750px;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 5px;
-    word-spacing: 10px;
-  }
-  .top-cloud {
-    top: -450px;
-  }
-  .sun {
-    top: -1650px;
-    transition: transform 2s ease-in-out;
-  }
-
   /************ABOUT SECTION**************/
-
   .about-icon-flex {
     position: relative;
     left: 50px;
   }
 }
+
 @media (max-width: 600px) {
   #header {
     width: 100%;
-    height: 100vh;
   }
+
   .welcome {
     left: -50px;
     font-size: 85px;
@@ -2531,197 +1039,11 @@
     transform: translate(530px, 30px);
   }
 
-  .annas-cloud {
-    position: absolute;
-    left: 0;
-    top: 880px;
-    z-index: 100;
-  }
-
   .header-cloud-border {
     position: relative;
     top: 400px;
     filter: drop-shadow(20px -10px 5px rgba(0, 0, 0, 0.11));
     z-index: 95;
-  }
-
-  /**********SKILLS************/
-  .skills-header {
-    top: 650px;
-  }
-
-  .skills-h2 {
-    top: 660px;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-  }
-  .top-cloud {
-    top: -250px;
-  }
-  .sun {
-    top: -1650px;
-    transition: transform 2s ease-in-out;
-  }
-
-  /************PROJECTS***********/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  #project1 {
-    display: flex;
-    min-width: 200px;
-    border-radius: 0px;
-  }
-
-  .project-img-flex {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .project1-transition {
-    top: -1500px;
-  }
-
-  .project1-video {
-    width: 100%;
-    left: 0px;
-  }
-
-  .project1-column {
-    top: 20px;
-    left: 0px;
-  }
-
-  .project1-link {
-    left: 0px;
-  }
-
-  .project1-p {
-    width: 500px;
-    top: 30px;
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 23px;
-    word-spacing: 2px;
-  }
-
-  #project-selection-wrapper {
-    top: 20%;
-  }
-
-  .pr1 {
-    position: relative;
-    left: 190px;
-  }
-
-  .project1-back-btn-container {
-    top: 30px;
-    left: -170px;
-  }
-
-  /*****************PROJECT 1 DISPLAY END******************/
-
-  /*****************PROJECT 2 DISPLAY******************/
-  #project2 {
-    min-width: 200px;
-    border-radius: 0;
-  }
-
-  .project2-transition {
-    top: -1500px;
-  }
-
-  .project2-h2 {
-    margin-bottom: 20px;
-    top: 20px;
-    left: 0;
-    font-weight: 600;
-  }
-
-  .project2-video {
-    position: relative;
-    width: 100%;
-    left: 0px;
-    border: 1px solid rgba(161, 159, 159, 0.603);
-    border-radius: 5px;
-    box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.555);
-  }
-
-  .project2-p {
-    width: 500px;
-    top: 30px;
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 23px;
-    word-spacing: 2px;
-  }
-  .project2-link {
-    font-size: 13px;
-    top: 20px;
-    left: 0;
-  }
-
-  .pr2 {
-    position: relative;
-  }
-
-  .project2-back-btn-container {
-    top: 30px;
-    left: -170px;
-  }
-
-  /*****************PROJECT 2 DISPLAY END******************/
-  /*****************PROJECT 3 DISPLAY******************/
-  #project3 {
-    min-width: 200px;
-    border-radius: 0;
-  }
-
-  .pr3 {
-    position: relative;
-    left: -200px;
-  }
-
-  .project3-transition {
-    top: -1500px;
-  }
-
-  .project3-h2 {
-    position: relative;
-    margin-bottom: 20px;
-    top: 50px;
-  }
-
-  .project3-video {
-    width: 100%;
-    left: 0;
-    border: none;
-  }
-
-  .project3-p {
-    width: 500px;
-    top: 30px;
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 23px;
-    word-spacing: 2px;
-  }
-
-  .project3-back-btn-container {
-    position: relative;
-    top: 30px;
-    left: -170px;
-  }
-
-  .section-3-header {
-    top: -970px;
-    font-size: 20px;
   }
 
   /************ABOUT SECTION**************/
@@ -2742,11 +1064,12 @@
     width: 70%;
   }
 }
+
 @media (max-width: 550px) {
   #header {
     width: 100%;
-    height: 95vh;
   }
+
   .welcome {
     left: -50px;
     font-size: 85px;
@@ -2770,197 +1093,11 @@
     transform: translate(530px, 30px);
   }
 
-  .annas-cloud {
-    position: absolute;
-    left: 0;
-    top: 850px;
-    z-index: 100;
-  }
-
   .header-cloud-border {
     position: relative;
     top: 400px;
     filter: drop-shadow(20px -10px 5px rgba(0, 0, 0, 0.11));
     z-index: 95;
-  }
-
-  /**********SKILLS************/
-  .skills-header {
-    top: 650px;
-  }
-
-  .skills-h2 {
-    top: 680px;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-  }
-  .top-cloud {
-    top: -250px;
-  }
-  .sun {
-    top: -1590px;
-    transition: transform 2s ease-in-out;
-  }
-
-  /************PROJECTS***********/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  #project1 {
-    display: flex;
-    min-width: 200px;
-    border-radius: 0px;
-  }
-
-  .project-img-flex {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .project1-transition {
-    top: -1500px;
-  }
-
-  .project1-video {
-    width: 100%;
-    left: 0px;
-  }
-
-  .project1-column {
-    top: 20px;
-    left: 0px;
-  }
-
-  .project1-link {
-    left: 0px;
-  }
-
-  .project1-p {
-    width: 500px;
-    top: 30px;
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 23px;
-    word-spacing: 2px;
-  }
-
-  #project-selection-wrapper {
-    top: 20%;
-  }
-
-  .pr1 {
-    position: relative;
-    left: 190px;
-  }
-
-  .project1-back-btn-container {
-    top: 30px;
-    left: -170px;
-  }
-
-  /*****************PROJECT 1 DISPLAY END******************/
-
-  /*****************PROJECT 2 DISPLAY******************/
-  #project2 {
-    min-width: 200px;
-    border-radius: 0;
-  }
-
-  .project2-transition {
-    top: -1500px;
-  }
-
-  .project2-h2 {
-    margin-bottom: 20px;
-    top: 20px;
-    left: 0;
-    font-weight: 600;
-  }
-
-  .project2-video {
-    position: relative;
-    width: 100%;
-    left: 0px;
-    border: 1px solid rgba(161, 159, 159, 0.603);
-    border-radius: 5px;
-    box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.555);
-  }
-
-  .project2-p {
-    width: 500px;
-    top: 30px;
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 23px;
-    word-spacing: 2px;
-  }
-  .project2-link {
-    font-size: 13px;
-    top: 20px;
-    left: 0;
-  }
-
-  .pr2 {
-    position: relative;
-  }
-
-  .project2-back-btn-container {
-    top: 30px;
-    left: -170px;
-  }
-
-  /*****************PROJECT 2 DISPLAY END******************/
-  /*****************PROJECT 3 DISPLAY******************/
-  #project3 {
-    min-width: 200px;
-    border-radius: 0;
-  }
-
-  .pr3 {
-    position: relative;
-    left: -200px;
-  }
-
-  .project3-transition {
-    top: -1500px;
-  }
-
-  .project3-h2 {
-    position: relative;
-    margin-bottom: 20px;
-    top: 50px;
-  }
-
-  .project3-video {
-    width: 100%;
-    left: 0;
-    border: none;
-  }
-
-  .project3-p {
-    width: 500px;
-    top: 30px;
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 23px;
-    word-spacing: 2px;
-  }
-
-  .project3-back-btn-container {
-    position: relative;
-    top: 30px;
-    left: -170px;
-  }
-
-  .section-3-header {
-    top: -970px;
-    font-size: 20px;
   }
 
   /************ABOUT SECTION**************/
@@ -2973,24 +1110,29 @@
     top: -80px;
     left: 0px;
   }
+
   .fa-node-js {
     top: 0px;
     left: 35px;
   }
+
   .fa-laptop-code {
     position: relative;
     top: 50px;
     left: -45px;
     text-shadow: 0 0 2px #fff;
   }
+
   /**************FOOTER**************/
   #footer-section {
     box-shadow: 0 4px 15px rgba(42, 226, 250, 0);
   }
+
   .footer-nav {
     width: 100%;
   }
 }
+
 @media (max-width: 500px) {
   .welcome {
     left: -50px;
@@ -3003,8 +1145,9 @@
     top: 100px;
   }
 
-  .intro-container {
-    top: -250px;
+  .intro-inner-container {
+    width: 300px;
+    margin: 0 auto;
   }
 
   li {
@@ -3016,7 +1159,7 @@
 
   .into-text {
     position: relative;
-    width: 400px;
+    width: 300px;
     font-size: 20px;
     color: #333;
   }
@@ -3043,13 +1186,6 @@
     transform: translate(450px, 60px);
   }
 
-  .annas-cloud {
-    position: absolute;
-    left: 0;
-    top: 850px;
-    z-index: 100;
-  }
-
   .header-cloud-border {
     position: relative;
     top: 400px;
@@ -3057,187 +1193,7 @@
     z-index: 95;
   }
 
-  /**********SKILLS************/
-  .skills-header {
-    top: 700px;
-  }
-
-  .skills-h2 {
-    top: 700px;
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-  }
-  .top-cloud {
-    top: -250px;
-  }
-  .sun {
-    top: -1490px;
-    transition: transform 2s ease-in-out;
-  }
-
-  /************PROJECTS***********/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  /*************PROJECTS**************/
-  #project1 {
-    display: flex;
-    min-width: 200px;
-    border-radius: 0px;
-  }
-
-  .project-img-flex {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .project1-transition {
-    top: -1500px;
-  }
-
-  .project1-video {
-    width: 100%;
-    left: 0px;
-  }
-
-  .project1-column {
-    top: 20px;
-    left: 0px;
-  }
-
-  .project1-link {
-    left: 0px;
-  }
-
-  .project1-p {
-    width: 400px;
-    top: 30px;
-    font-size: 10px;
-    letter-spacing: 2px;
-    line-height: 23px;
-    word-spacing: 2px;
-  }
-
-  #project-selection-wrapper {
-    top: 20%;
-  }
-
-  .pr1 {
-    position: relative;
-    left: 230px;
-  }
-
-  .project1-back-btn-container {
-    top: 20px;
-    left: -170px;
-  }
-
-  /*****************PROJECT 1 DISPLAY END******************/
-
-  /*****************PROJECT 2 DISPLAY******************/
-  #project2 {
-    min-width: 200px;
-    border-radius: 0;
-  }
-
-  .project2-transition {
-    top: -1500px;
-  }
-
-  .project2-h2 {
-    margin-bottom: 20px;
-    top: 20px;
-    left: 0;
-    font-weight: 600;
-  }
-
-  .project2-video {
-    position: relative;
-    width: 100%;
-    left: 0px;
-    border: 1px solid rgba(161, 159, 159, 0.603);
-    border-radius: 5px;
-    box-shadow: 5px 8px 15px 5px rgba(0, 0, 0, 0.555);
-  }
-
-  .project2-p {
-    width: 400px;
-    top: 30px;
-    font-size: 10px;
-    letter-spacing: 2px;
-    line-height: 23px;
-    word-spacing: 2px;
-  }
-  .project2-link {
-    font-size: 13px;
-    top: 20px;
-    left: 0;
-  }
-
-  .pr2 {
-    position: relative;
-  }
-
-  .project2-back-btn-container {
-    top: 20px;
-    left: -170px;
-  }
-
-  /*****************PROJECT 2 DISPLAY END******************/
-  /*****************PROJECT 3 DISPLAY******************/
-  #project3 {
-    min-width: 200px;
-    border-radius: 0;
-  }
-
-  .pr3 {
-    position: relative;
-    left: -230px;
-  }
-
-  .project3-transition {
-    top: -1500px;
-  }
-
-  .project3-h2 {
-    position: relative;
-    margin-bottom: 20px;
-    top: 50px;
-  }
-
-  .project3-video {
-    width: 100%;
-    left: 0;
-    border: none;
-  }
-
-  .project3-p {
-    width: 400px;
-    top: 30px;
-    font-size: 10px;
-    letter-spacing: 2px;
-    line-height: 23px;
-    word-spacing: 2px;
-  }
-
-  .project3-back-btn-container {
-    position: relative;
-    top: 20px;
-    left: -170px;
-  }
-
-  .section-3-header {
-    top: -970px;
-    font-size: 20px;
-  }
-
   /************ABOUT SECTION**************/
-
   .about-icon-flex {
     display: flex;
     justify-content: center;
@@ -3251,16 +1207,146 @@
     top: 0px;
     left: 35px;
   }
+
   .fa-laptop-code {
     top: 50px;
     left: -45px;
     text-shadow: 0 0 2px #fff;
   }
+
   /**************FOOTER**************/
   #footer-section {
     box-shadow: 0 4px 15px rgba(42, 226, 250, 0);
   }
+
   .footer-nav {
     width: 100%;
+  }
+}
+
+@media (max-width: 446px) {
+  .header-h1 {
+    top: -50px;
+    left: -340px;
+    font-size: 15px;
+    font-weight: 400;
+    transition: transform 4s ease-in-out;
+  }
+  .name-line {
+    top: 53px;
+    transition: transform 1s ease-in-out 3s;
+  }
+
+  #header:hover .name-line {
+    transform: translate(450px, -5px);
+  }
+
+  .name-line2 {
+    top: -80px;
+    left: 195px;
+    transition: transform 2s ease-in-out 1.8s;
+  }
+
+  #header:hover .name-line2 {
+    transform: translate(0px, 120px);
+  }
+  .intro-inner-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  li {
+    position: relative;
+    left: -60px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .into-text {
+    position: relative;
+    width: 300px;
+    font-size: 20px;
+    color: #333;
+  }
+}
+@media (max-width: 401px) {
+  .welcome {
+    left: -80px;
+    font-size: 50px;
+  }
+
+  .cloud1-container {
+    top: 20px;
+    left: -80px;
+  }
+  .cloud2-container {
+    left: -50px;
+  }
+
+  li {
+    position: relative;
+    left: -110px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  #header:hover .airballoon1 {
+    transform: translate(520px, 90px);
+  }
+}
+@media (max-width: 349px) {
+  .welcome {
+    left: -50px;
+    font-size: 50px;
+  }
+
+  .cloud1-container {
+    top: 20px;
+    left: -80px;
+  }
+  .cloud2-container {
+    left: -50px;
+  }
+
+  li {
+    position: relative;
+    left: -150px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .into-text {
+    position: relative;
+    width: 100%;
+    font-size: 17px;
+    color: #333;
+    padding: 0 10px;
+  }
+
+  .intro-inner-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .intro-name-square {
+    position: relative;
+    top: 39px;
+    left: 157px;
+    width: 17px;
+    height: 20px;
+    background-color: rgb(153, 239, 245);
+  }
+
+  .intro-name-square2 {
+    position: relative;
+    top: 19px;
+    left: 206px;
+    width: 17px;
+    height: 20px;
+    background-color: rgb(178, 247, 252);
+  }
+
+  #header:hover .airballoon1 {
+    transform: translate(460px, 160px);
   }
 }

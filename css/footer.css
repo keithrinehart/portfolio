@@ -24,6 +24,7 @@
   color: ivory;
   padding: 20px;
   font-size: 35px;
+  transition: 800ms ease;
 }
 
 .fa-linkedin:hover {
@@ -37,6 +38,7 @@
   color: ivory;
   padding: 20px 0px 0 0;
   font-size: 35px;
+  transition: 800ms ease;
 }
 
 .fa-github-square:hover {
