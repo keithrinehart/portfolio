@@ -57,7 +57,7 @@
   text-align: center;
   font-size: 70px;
   letter-spacing: 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(252, 252, 251);
   z-index: 100;
 }
 
@@ -70,7 +70,7 @@
   letter-spacing: 12px;
   word-spacing: 30px;
   font-family: "Playfair Display", serif;
-  color: rgb(0, 0, 0);
+  color: rgb(252, 252, 251);
   z-index: 100;
 }
 
