@@ -13,7 +13,7 @@
     color: rgb(69, 252, 252);
   }
   33% {
-    background: rgb(195, 248, 248);
+    background: rgb(205, 252, 252);
     color: #fff;
   }
   66% {
@@ -21,7 +21,7 @@
     color: rgb(69, 252, 252);
   }
   100% {
-    background: rgb(195, 248, 248);
+    background: rgb(205, 252, 252);
     color: #fff;
   }
 }
@@ -44,6 +44,7 @@
 }
 .carrousel-li {
   height: 30px;
+  color: rgb(88, 88, 88);
   font-size: 30px;
   position: absolute;
   border: none;
@@ -55,24 +56,6 @@
   animation: colortextchange 30s linear 0s infinite alternate;
 }
 
-@keyframes colortextchange {
-  0% {
-    background: none;
-    color: #333;
-  }
-  33% {
-    background: none;
-    color: rgb(69, 252, 252);
-  }
-  66% {
-    background: none;
-    color: #333;
-  }
-  100% {
-    background: none;
-    color: rgb(69, 252, 252);
-  }
-}
 /*************SIZING************/
 @media (max-width: 685px) {
   .bg {
@@ -137,7 +120,7 @@
   .carrousel-li {
     left: -40px;
     height: 20px;
-    font-size: 12px;
+    font-size: 20px;
   }
 }
 @media (max-width: 378px) {
@@ -155,6 +138,6 @@
   .carrousel-li {
     left: 0px;
     height: 20px;
-    font-size: 12px;
+    font-size: 18px;
   }
 }
