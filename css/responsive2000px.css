@@ -25,7 +25,9 @@
     z-index: 90;
   }
 
-  #header:hover .cover1 {
+  #header:hover .cover1,
+  #header:focus .cover1,
+  #header:active .cover1 {
     transform: translate(-2050px, 0px);
   }
 
@@ -38,7 +40,9 @@
     z-index: 100;
   }
 
-  #header:hover .cloud1-container {
+  #header:hover .cloud1-container,
+  #header:focus .cloud1-container,
+  #header:active .cloud1-container {
     transform: translate(0px, -500px);
   }
 
@@ -71,7 +75,9 @@
     z-index: 100;
   }
 
-  #header:hover .welcome {
+  #header:hover .welcome,
+  #header:focus .welcome,
+  #header:active .welcome {
     transform: translate(-1100px, 0px);
   }
 
@@ -84,7 +90,9 @@
     z-index: 100;
   }
 
-  #header:hover .cloud2-container {
+  #header:hover .cloud2-container,
+  #header:focus .cloud2-container,
+  #header:active .cloud2-container {
     transform: translate(0px, -550px);
   }
 
@@ -114,7 +122,9 @@
     z-index: 93;
   }
 
-  #header:hover .header-line {
+  #header:hover .header-line,
+  #header:focus .header-line,
+  #header:active .header-line {
     transform: translate(0px, 1020px);
   }
 
@@ -138,7 +148,9 @@
     transition: transform 4s ease-in-out;
   }
 
-  #header:hover .header-h1 {
+  #header:hover .header-h1,
+  #header:focus .header-h1,
+  #header:active .header-h1 {
     transform: translate(250px, 0px);
   }
 
@@ -152,7 +164,9 @@
     transition: transform 1s ease-in-out 3s;
   }
 
-  #header:hover .name-line {
+  #header:hover .name-line,
+  #header:focus .name-line,
+  #header:active .name-line {
     transform: translate(550px, 0px);
   }
 
@@ -166,7 +180,9 @@
     transition: transform 2s ease-in-out 1.8s;
   }
 
-  #header:hover .name-line2 {
+  #header:hover .name-line2,
+  #header:focus .name-line2,
+  #header:active .name-line2 {
     transform: translate(0px, 160px);
   }
 
@@ -181,7 +197,9 @@
     transition: transform 2s ease-in-out 1s;
   }
 
-  #header:hover .intro-container {
+  #header:hover .intro-container,
+  #header:focus .intro-container,
+  #header:active .intro-container {
     transform: translate(0px, 500px);
   }
 
@@ -227,7 +245,9 @@
     transition: transform 2s ease-in-out;
   }
 
-  #header:hover .header-ul {
+  #header:hover .header-ul,
+  #header:focus .header-ul,
+  #header:active .header-ul {
     transform: translate(0px, 230px);
   }
 
@@ -247,7 +267,9 @@
     transition: transform 1s ease-in-out;
   }
 
-  .header-a:hover {
+  .header-a:hover,
+  .header-a:focus,
+  .header-a:active {
     color: rgb(155, 231, 245);
     transition: 0.3s;
   }
@@ -271,7 +293,9 @@
     transition: transform 4s ease-in-out;
   }
 
-  #header:hover .airballoon1 {
+  #header:hover .airballoon1,
+  #header:focus .airballoon1,
+  #header:active .airballoon1 {
     transform: translate(100px, -350px);
   }
 
@@ -283,7 +307,9 @@
     z-index: 98;
   }
 
-  #header:hover .airballoon2 {
+  #header:hover .airballoon2,
+  #header:focus .airballoon2,
+  #header:active .airballoon2 {
     transform: translate(-690px, 250px);
   }
 }
