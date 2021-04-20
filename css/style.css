@@ -34,7 +34,7 @@ html {
 }
 
 #header:hover .cloud1-container,
-#header:hover .cloud1-container:active {
+#header:active .cloud1-container {
   transform: translate(0px, -500px);
 }
 
@@ -70,7 +70,7 @@ html {
 }
 
 #header:hover .welcome,
-#header:hover .welcome:active {
+#header:active .welcome {
   transform: translate(-1100px, 0px);
 }
 
@@ -84,7 +84,7 @@ html {
 }
 
 #header:hover .cloud2-container,
-#header:hover .cloud2-container:active {
+#header:active .cloud2-container {
   transform: translate(0px, -500px);
 }
 
@@ -117,12 +117,12 @@ html {
 }
 
 #header:hover .header-line,
-#header:hover .header-line:active {
+#header:active .header-line {
   transform: translate(0px, 1020px);
 }
 
 #header:hover .cover1,
-#header:hover .cover1:active {
+#header:active .cover1 {
   transform: translate(-1950px, 0px);
 }
 
@@ -147,7 +147,7 @@ html {
 }
 
 #header:hover .header-h1,
-#header:hover .header-h1:active {
+#header:active .header-h1 {
   transform: translate(250px, 0px);
 }
 
@@ -162,7 +162,7 @@ html {
 }
 
 #header:hover .name-line,
-#header:hover .name-line:active {
+#header:active .name-line {
   transform: translate(550px, 0px);
 }
 
@@ -177,7 +177,7 @@ html {
 }
 
 #header:hover .name-line2,
-#header:hover .name-line2:active {
+#header:active .name-line2 {
   transform: translate(0px, 160px);
 }
 
@@ -193,7 +193,7 @@ html {
 }
 
 #header:hover .intro-container,
-#header:hover .intro-container:active {
+#header:active .intro-container {
   transform: translate(0px, 500px);
 }
 
@@ -240,7 +240,7 @@ html {
 }
 
 #header:hover .header-ul,
-#header:hover .header-ul:active {
+#header:active .header-ul {
   transform: translate(0px, 230px);
 }
 
@@ -261,7 +261,7 @@ a {
 }
 
 .header-a:hover,
-.header-a:hover:active {
+.header-a:active {
   color: rgb(155, 231, 245);
   transition: 0.3s;
 }
@@ -286,7 +286,7 @@ a {
 }
 
 #header:hover .airballoon1,
-#header:hover .airballoon1:active {
+#header:active .airballoon1 {
   transform: translate(200px, -500px);
 }
 
@@ -299,7 +299,7 @@ a {
 }
 
 #header:hover .airballoon2,
-#header:hover .airballoon2:active {
+#header:active .airballoon2 {
   transform: translate(-690px, 0px);
 }
 /*************BOTTOM SECTION HEADER************/
