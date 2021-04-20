@@ -8,7 +8,7 @@ rotate(x);
 setInterval(() => {
   x = ++x % words.length;
   rotate(x);
-}, 1500);
+}, 800);
 
 function rotate(start) {
   for (let i = 0; i < words.length; ++i) {
