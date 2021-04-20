@@ -1,0 +1,160 @@
+.bg {
+  padding: 100px 0;
+  font-family: "Playfair Display", serif;
+}
+
+#headerbottombkg {
+  animation: colorchange 30s linear 0s infinite alternate;
+}
+
+@keyframes colorchange {
+  0% {
+    background: #fff;
+    color: rgb(69, 252, 252);
+  }
+  33% {
+    background: rgb(195, 248, 248);
+    color: #fff;
+  }
+  66% {
+    background: #fff;
+    color: rgb(69, 252, 252);
+  }
+  100% {
+    background: rgb(195, 248, 248);
+    color: #fff;
+  }
+}
+
+.carrousel-h1 {
+  position: relative;
+  font-size: 50px;
+  color: rgb(90, 89, 89);
+}
+
+.word-rotate {
+  position: relative;
+  left: 50px;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+}
+.carrousel-li {
+  height: 30px;
+  font-size: 30px;
+  position: absolute;
+  border: none;
+  text-decoration: none;
+  bottom: 0;
+  left: 0;
+  text-shadow: 0 0 2px rgb(70, 69, 69);
+  transition: all 0.5s;
+  animation: colortextchange 30s linear 0s infinite alternate;
+}
+
+@keyframes colortextchange {
+  0% {
+    background: none;
+    color: #333;
+  }
+  33% {
+    background: none;
+    color: rgb(69, 252, 252);
+  }
+  66% {
+    background: none;
+    color: #333;
+  }
+  100% {
+    background: none;
+    color: rgb(69, 252, 252);
+  }
+}
+/*************SIZING************/
+@media (max-width: 685px) {
+  .bg {
+    padding: 50px 0;
+    font-family: "Playfair Display", serif;
+  }
+
+  .carrousel-h1 {
+    top: -20px;
+    font-size: 40px;
+  }
+
+  .carrousel-li {
+    height: 20px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 535px) {
+  .bg {
+    padding: 50px 0;
+    font-family: "Playfair Display", serif;
+  }
+
+  .carrousel-h1 {
+    font-size: 30px;
+  }
+
+  .carrousel-li {
+    left: -30px;
+    height: 20px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 440px) {
+  .bg {
+    padding: 40px 0;
+    font-family: "Playfair Display", serif;
+  }
+
+  .carrousel-h1 {
+    left: 10px;
+    font-size: 25px;
+  }
+
+  .carrousel-li {
+    left: -30px;
+    height: 20px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 385px) {
+  .bg {
+    padding: 40px 0;
+    font-family: "Playfair Display", serif;
+  }
+
+  .carrousel-h1 {
+    left: 25px;
+    font-size: 25px;
+  }
+
+  .carrousel-li {
+    left: -40px;
+    height: 20px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 378px) {
+  .bg {
+    padding: 40px 0;
+    font-family: "Playfair Display", serif;
+  }
+
+  .carrousel-h1 {
+    text-align: center;
+    left: 0px;
+    font-size: 25px;
+  }
+
+  .carrousel-li {
+    left: 0px;
+    height: 20px;
+    font-size: 12px;
+  }
+}

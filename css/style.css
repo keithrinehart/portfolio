@@ -303,7 +303,7 @@ a {
   transform: translate(-690px, 0px);
 }
 /*************BOTTOM SECTION HEADER************/
-.header-bottom-section {
+.bg {
   position: relative;
   display: flex;
   flex-direction: column;
