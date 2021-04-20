@@ -33,7 +33,8 @@ html {
   z-index: 100;
 }
 
-#header:hover .cloud1-container {
+#header:hover .cloud1-container,
+#header:hover .cloud1-container:active {
   transform: translate(0px, -500px);
 }
 
@@ -68,7 +69,8 @@ html {
   z-index: 100;
 }
 
-#header:hover .welcome {
+#header:hover .welcome,
+#header:hover .welcome:active {
   transform: translate(-1100px, 0px);
 }
 
@@ -81,7 +83,8 @@ html {
   z-index: 100;
 }
 
-#header:hover .cloud2-container {
+#header:hover .cloud2-container,
+#header:hover .cloud2-container:active {
   transform: translate(0px, -500px);
 }
 
@@ -113,11 +116,13 @@ html {
   z-index: 93;
 }
 
-#header:hover .header-line {
+#header:hover .header-line,
+#header:hover .header-line:active {
   transform: translate(0px, 1020px);
 }
 
-#header:hover .cover1 {
+#header:hover .cover1,
+#header:hover .cover1:active {
   transform: translate(-1950px, 0px);
 }
 
@@ -141,7 +146,8 @@ html {
   transition: transform 4s ease-in-out;
 }
 
-#header:hover .header-h1 {
+#header:hover .header-h1,
+#header:hover .header-h1:active {
   transform: translate(250px, 0px);
 }
 
@@ -155,7 +161,8 @@ html {
   transition: transform 1s ease-in-out 3s;
 }
 
-#header:hover .name-line {
+#header:hover .name-line,
+#header:hover .name-line:active {
   transform: translate(550px, 0px);
 }
 
@@ -169,7 +176,8 @@ html {
   transition: transform 2s ease-in-out 1.8s;
 }
 
-#header:hover .name-line2 {
+#header:hover .name-line2,
+#header:hover .name-line2:active {
   transform: translate(0px, 160px);
 }
 
@@ -184,7 +192,8 @@ html {
   transition: transform 2s ease-in-out 1s;
 }
 
-#header:hover .intro-container {
+#header:hover .intro-container,
+#header:hover .intro-container:active {
   transform: translate(0px, 500px);
 }
 
@@ -230,7 +239,8 @@ html {
   transition: transform 2s ease-in-out;
 }
 
-#header:hover .header-ul {
+#header:hover .header-ul,
+#header:hover .header-ul:active {
   transform: translate(0px, 230px);
 }
 
@@ -250,7 +260,8 @@ a {
   transition: transform 1s ease-in-out;
 }
 
-.header-a:hover {
+.header-a:hover,
+.header-a:hover:active {
   color: rgb(155, 231, 245);
   transition: 0.3s;
 }
@@ -274,7 +285,8 @@ a {
   transition: transform 4s ease-in-out;
 }
 
-#header:hover .airballoon1 {
+#header:hover .airballoon1,
+#header:hover .airballoon1:active {
   transform: translate(200px, -500px);
 }
 
@@ -286,7 +298,8 @@ a {
   z-index: 98;
 }
 
-#header:hover .airballoon2 {
+#header:hover .airballoon2,
+#header:hover .airballoon2:active {
   transform: translate(-690px, 0px);
 }
 /*************BOTTOM SECTION HEADER************/
