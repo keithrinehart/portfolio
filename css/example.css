@@ -28,8 +28,24 @@
 
 .carrousel-h1 {
   position: relative;
+  text-decoration: underline 3px rgb(185, 236, 245);
   font-size: 50px;
   color: rgb(90, 89, 89);
+  animation: linechange 30s linear 0s infinite alternate;
+}
+@keyframes linechange {
+  0% {
+    text-decoration: underline 3px rgb(185, 236, 245);
+  }
+  33% {
+    text-decoration: underline 3px #fff;
+  }
+  66% {
+    text-decoration: underline 3px rgb(185, 236, 245);
+  }
+  100% {
+    text-decoration: underline 3px #fff;
+  }
 }
 
 .word-rotate {
